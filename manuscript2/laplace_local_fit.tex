@@ -1,0 +1,247 @@
+\documentclass[man, noextraspace, floatsintext, 12pt]{apa7}
+%\documentclass[12pt, noextraspace, floatsintext]{apa6}
+%\documentclass[man, 12pt, noextraspace, floatsintext]{apa6}
+%\documentclass[11pt]{article}
+
+% ADD REVIEWING PACKAGE
+\usepackage{easyReview}
+% Show reviews/edits or not?
+\setreviewson
+%\setreviewsoff
+% Line numbers for ease of pointing to lines
+\usepackage{lineno} %[pagewise]
+%\linenumbers
+
+\usepackage{lscape}
+%Math typesetting packages
+\usepackage{amsfonts, amssymb, amsmath, latexsym, amsthm}
+%for URLs in-text 
+\usepackage{url}
+% ================
+% = Bibliography =
+% ================
+%APA style citations and references
+%\usepackage[utf8]{inputenc}
+%\usepackage{babel,csquotes,xpatch}
+\usepackage[backend=biber, style=apa, natbib]{biblatex}
+\addbibresource{references.bib}
+
+%\usepackage[natbibapa]{apacite} 
+% for hanging-indentation style using apacite
+%\setlength{\bibindent}{2.5em}
+%\setlength{\bibleftmargin}{0em}
+% ==========
+% = Floats =
+% ==========
+\usepackage{float}
+% include external pictures
+\usepackage{graphicx} %Graphics/figures
+% rotate figures/tables
+\usepackage{rotating} 
+% For professional tables
+\usepackage{booktabs,threeparttable, multirow} 
+\usepackage{tabularx}
+% For fixing the column widths
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% ===================
+% ==== Tikz Diagrams	==
+% ===================
+\usepackage{tikz}
+\usetikzlibrary{calc,arrows,positioning,shapes,shapes.gates.logic.US,trees, intersections}
+% =======================
+% === Other useful packages ==
+% =======================
+\usepackage[T1]{fontenc} 
+\usepackage{placeins}
+\usepackage{hyperref}
+% subcaptions/subfigures %,justification=centered
+\usepackage[hypcap=true,width=\textwidth]{subcaption}
+% =============
+%  == formatting ==
+% =============
+% \usepackage[margin=1in]{geometry}
+% \setlength{\parindent}{0.5in}
+\usepackage{setspace}
+% \doublespacing
+
+% ==========
+% = Syntax =
+% ==========
+% For Computer Code in Appendix. I set the language for R, so will need to be changed for different languages
+\usepackage{listings}
+\lstset{
+    language=R,
+    basicstyle=\small \ttfamily,
+    commentstyle=\ttfamily ,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=none,
+    tabsize=2,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    title=\lstname,
+    aboveskip=10pt,
+    belowskip=-10pt,
+    %escapeinside={},
+    %keywordstyle={},
+   % morekeywords={}
+    }%
+%~~
+\title{Assessing local fit}
+\shorttitle{Assessing local fit} % For APA package
+\author{R. Noah Padgett \& Grant B. Morgan}
+%\author{Graduate Student}
+\affiliation{Baylor University}
+%\affiliation{REMOVED FOR PEER REVIEW}
+
+
+
+\abstract{ 
+A SUPER AWESOME AMAZING ABSTRACT THAT SAYS THINGS ABOUT STUFF
+%\singlespacing
+ } % End abstract
+
+\keywords{local fit, factor analysis, Laplace}
+
+%\authornote{REMOVED FOR PEER REVIEW}
+\authornote{
+R. Noah Padgett, Department of Educational Psychology, Baylor University; Grant B. Morgan, Department of Educational Psychology, Baylor University; 
+
+%Acknowledgments\\ 
+%I would like to thank the Grant Morgan, Nicholas Benson and  Mandy Hering for their efforts help in reviewing this project when it was R. Noah Padgett's Master's Thesis project.
+%And thanks to Grace Aquino from the Baylor's Graduate Writing Center for her helpful feedback and editing.
+
+Correspondence concerning this article should be address to R. Noah Padgett, Department of Educational Psychology, One Bear Place \# 97304, Baylor University, Waco, TX 76798. Contact: \href{mailto:noah\_padgett1@baylor.edu}{\tt noah\_padgett1@baylor.edu} 
+}
+
+
+\begin{document}
+
+\maketitle
+
+%% Spacing for Eqations Can't be in preamble...
+\setlength{\abovedisplayskip}{3pt}
+\setlength{\belowdisplayskip}{3pt}
+
+Introduce the idea of assessing model fit
+
+- add info about the explosion of fit indices
+
+- reference local fit methods: Wald-test, mod indices, etc.
+
+
+End with describing main purpose of the paper: describe the use of the proposed method of local fit evaluation.
+
+
+
+Classifying the methods of assessing local based on the approach:
+
+- based on estimation: do you estimate new parameters?
+
+- based on residuals - difference between observed and model implied
+
+- significance testing
+
+
+\subsection{Local Fit Evaluation}
+Need to outline the what local fit means.
+
+\subsubsection{Wald Tests}
+
+\subsubsection{Modification Indices}
+Yeah...
+
+\subsubsection{Model Implied Instrumental Variables}
+
+Lots to look at here.\\
+
+Bollen, K.A. (2019a).  Model Implied Instrumental Variables (MIIVs): An alternative orientation to structural equation modeling.  Multivariate Behavioral Research 54:1, 31-46, DOI: 10.1080/00273171.2018.1483224.
+
+Bollen, K.A. (2019b).  When good loadings go bad: Robustness in factor analysis. Structural Equation Modeling.
+
+ Fisher, Z. F., Bollen, K. A., Gates, K. M., \& Rönkkö, M. (2017). MIIVsem: Model implied instrumental variable (MIIV) estimation of structural equation models. R Package Version 0.5.2. 
+
+
+\subsubsection{Residual Matrices}
+
+Evaluating a residual covariance matrix can provide insight into which bivariate relationships are not being captured by the proposed model.
+Four main types of residual covariance matrices are: 1) covariance residuals; 2) correlation residuals; 3) standardized residuals; and 4) normalized residuals.
+Each type of residual can help provide evidence of where one's model needs to be modified to better represent one's data.
+
+\subsection{Proposed Bayesian Method}
+
+The above methods have provided us with many excellent ways of investigating how the proposed measurement structures capture the relationships in observed data.
+However, we were still left in a bit of quandary as to whether any potential changes would be of a substantive importance.
+We developed a hopefully straightforward approach to tackling this aspect of local fit evaluation by means of successive approximation of the non-estimated parameters.
+In our experience, we have found that the model changes proposed through modification indices results in parameter estimates that were of little substantive meaning.
+For example, a cross-loading that is low or a residual covariance that suggests a weak relationship that substantively doesn't add to our understanding of the measurement of the construct of interest.
+
+We propose a method that approximates what the magnitude of the non-estimated parameters would be and to couch the estimates in terms of the probability that the parameter is of substantive interest.
+The idea is to set a threshold that we would consider to be of substantive meaningfulness.
+This is similar to defining a ``region of practical equivalence (ROPE)'' described in \textcite{Shi2019}.
+The ROPE is a region in the parameter space that the researcher determines to be insignificant, and this is already done in most applications of exploratory factor analysis (EFA) when the researcher suppresses factor loadings that are below 0.32 \citep{Benson1998}.
+
+
+\subsubsection{Introduction to Bayesian Approach}
+
+A light introduction to Bayes idea - The Bayes LCA article is good example of how this can be done without being too technical.
+
+ 
+\subsubsection{Laplace Approximation}
+
+Describe Laplace's method for approximating posterior
+
+\subsubsection{Applying Laplace to CFA}
+
+describe how the above method can be used for individual parameters in a CFA model - testing parameters similar to modification indices.
+
+- maybe supply a general algorithm block to describe the code
+
+The code was written in R \citep{R2020} so that the code can easily build on the lavaan package \citep{lavaan2012}.
+
+- condense code?
+
+\section{Illustrative Example}
+
+Apply the method to a misspecified KNOWN model
+
+- simulate a normal theory CFA model
+
+- Apply Laplace method, mod indices, etc.
+
+
+Maybe try to find a good dataset to apply the methods to.
+
+\section{Conclusion}
+
+describe thoughts on how this method appears to stack up against existing methods.
+
+Notes on what issues arise in using method
+
+What should be done in future developments to help make the method more accessible
+
+
+% ============================= 
+\newpage
+\raggedright
+%\bibliographystyle{apacite} 
+% You may have to select another style. Remember: LaTeX, BibTeX, LaTeX, LaTex to get the citations to appear
+%\raggedright
+%\urlstyle{same}
+%\bibliography{references}
+\printbibliography
+%~~
+%%~~
+\appendix
+
+\section{R Code}
+
+Create a self-contained function - will contain subfunctions.
+
+\end{document}

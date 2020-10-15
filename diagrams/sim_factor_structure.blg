@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'sim_factor_structure.blg'
+[72] biber-MSWIN64:322> INFO - === 
+[424] Utils.pm:320> ERROR - Cannot find 'sim_factor_structure.bcf'!
+[439] Biber.pm:132> INFO - ERRORS: 1

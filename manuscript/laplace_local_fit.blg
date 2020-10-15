@@ -1,0 +1,24 @@
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[3] Config.pm:315> INFO - Logfile is 'laplace_local_fit.blg'
+[123] biber-MSWIN64:330> INFO - === 
+[168] Biber.pm:415> INFO - Reading 'laplace_local_fit.bcf'
+[336] Biber.pm:952> INFO - Found 36 citekeys in bib section 0
+[366] Biber.pm:4334> INFO - Processing section 0
+[385] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[405] bibtex.pm:1682> INFO - LaTeX decoding ...
+[504] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[549] Utils.pm:395> WARN - month field 'may' in entry 'Maydeu2018' is not an integer - this will probably not sort properly.
+[584] Utils.pm:395> WARN - month field 'jan' in entry 'Kline2015' is not an integer - this will probably not sort properly.
+[593] Utils.pm:395> WARN - month field 'sep' in entry 'Sorbom1989' is not an integer - this will probably not sort properly.
+[599] Utils.pm:395> WARN - month field 'jul' in entry 'Kaplan1989' is not an integer - this will probably not sort properly.
+[609] Utils.pm:395> WARN - month field 'aug' in entry 'Buse1982' is not an integer - this will probably not sort properly.
+[624] Utils.pm:395> WARN - month field 'jan' in entry 'Chou1990' is not an integer - this will probably not sort properly.
+[640] Utils.pm:395> WARN - month field 'mar' in entry 'Shi2019' is not an integer - this will probably not sort properly.
+[647] Utils.pm:395> WARN - ISBN '0739-3369' in entry 'Benson1998' is invalid - run biber with '--validate_datamodel' for details.
+[851] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[854] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[855] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[855] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[935] bbl.pm:651> INFO - Writing 'laplace_local_fit.bbl' with encoding 'UTF-8'
+[1000] bbl.pm:754> INFO - Output to laplace_local_fit.bbl
+[1006] Biber.pm:128> INFO - WARNINGS: 8

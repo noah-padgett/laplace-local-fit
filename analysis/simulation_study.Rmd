@@ -1,0 +1,222 @@
+---
+title: "Monte Carlo Simulation"
+author: "R. Noah Padgett"
+date: "8/20/2020"
+output: html_document
+---
+
+```{r setup}
+
+library(xtable)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(simsem)
+
+library(coda)
+library(mvtnorm)
+library(lavaan)
+library(data.table)
+library(tcltk)
+
+# Set Seed for Reproducibility
+set.seed(1234)
+
+# summary objects
+nrep <- 1000
+nvar <- 2
+sim.res <- as.data.frame(matrix(nrow=nrep, ncol=nvar))
+
+```
+
+
+# Simulation Study
+
+
+```{r}
+
+# specify population model
+population.model <- ' 
+  f1 =~ 1*y1 + 0.8*y2 + 0.8*y3 + 1.2*y4
+  f2 =~ 1*y5 + 1.1*y6 + 0.8*y7 + 0.9*y8
+  f3 =~ 1*y9 + 0.8*y10 + 1.3*y11 + 0.8*y12
+  
+  # Factor (co)variances
+  f1 ~~ 0.3*f2 + 0.1*f3
+  f2 ~~ 0.2*f3
+  
+  # residual covariances
+  y2 ~~ 0.3*y3
+  y4 ~~ 0.3*y7
+'
+
+
+
+# analysis model
+analysis.model1 <- ' 
+  f1 =~ y1 + y2 + y3 + y4
+  f2 =~ y5 + y6 + y7 + y8 
+  f3 =~ y9 + y10 + y11 + y12 
+  
+  # Factor covariances
+  f1 ~~ f2 + f3
+  f2 ~~ f3
+  
+  # residual covariances
+  y2 ~~ y3
+'
+
+
+Output <- sim(nrep, model=analysis.model1,
+              n=300, generate=population.model,
+              lavaanfun = "cfa")
+
+sim.res[,1] <- Output@stdCoef[, "y2~~y3"]
+
+
+# analysis model
+analysis.model2 <- ' 
+  f1 =~ y1 + y2 + y3 + y4
+  f2 =~ y5 + y6 + y7 + y8 
+  f3 =~ y9 + y10 + y11 + y12 
+  
+  # Factor covariances
+  f1 ~~ f2 + f3
+  f2 ~~ f3
+  
+  # residual covariances
+  y4 ~~ y7
+'
+
+Output <- sim(nrep, model=analysis.model2,
+              n=300, generate=population.model,
+              lavaanfun = "cfa")
+
+sim.res[,2] <- Output@stdCoef[, "y4~~y7"]
+colnames(sim.res) <- c("y2~~y3", "y4~~y7")
+plot_dat <- sim.res %>%
+  pivot_longer(
+    cols=everything(),
+    names_to = "Parameter",
+    values_to = "Estimate"
+  ) %>%
+  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25))
+
+p <- ggplot(plot_dat, aes(x=Estimate))+
+  geom_density()+
+  geom_vline(aes(xintercept = V), linetype="dashed")+
+  #geom_vline(aes(xintercept = -V), linetype="dashed")+
+  facet_wrap(.~Parameter)+
+  theme_bw()
+p
+
+mean(sim.res[,1] > 0.25)
+mean(sim.res[,2] > 0.25)
+
+```
+
+
+# Laplace Approximation
+
+```{r}
+
+
+
+wd <- getwd()
+source(paste0(wd, "/code/utility_functions.R"))
+source(paste0(wd, "/code/laplace_functions.R"))
+
+
+# specify population model
+population.model <- ' 
+  f1 =~ 1*y1 + 0.8*y2 + 0.8*y3 + 1.2*y4
+  f2 =~ 1*y5 + 1.1*y6 + 0.8*y7 + 0.9*y8
+  f3 =~ 1*y9 + 0.8*y10 + 1.3*y11 + 0.8*y12
+  
+  # Factor (co)variances
+  f1 ~~ 0.3*f2 + 0.1*f3
+  f2 ~~ 0.2*f3
+  
+  # residual covariances
+  y2 ~~ 0.3*y3
+  y4 ~~ 0.3*y7
+'
+
+# generate data
+myData <- simulateData(population.model, sample.nobs=300L)
+
+# fit model
+myModel <- ' 
+  f1 =~ y1 + y2 + y3 + y4
+  f2 =~ y5 + y6 + y7 + y8 
+  f3 =~ y9 + y10 + y11 + y12 
+  
+  # Factor covariances
+  f1 ~~ f2 + f3
+  f2 ~~ f3
+'
+fit <- cfa(myModel, data=myData)
+summary(fit)
+
+
+lfit <- laplace_local_fit(
+  fit, data=myData, cut.load = 0.32, cut.cov = 0.25,
+  standardize = T,
+  opt=list(scale.cov=1, no.samples=1000))
+
+
+```
+
+
+
+## Sampling Distributions
+
+
+```{r}
+
+# transform
+plot_dat_laplace <- lfit$`All Results` %>%
+  pivot_longer(
+    cols=everything(),
+    names_to = "Parameter",
+    values_to = "Estimate"
+  )
+
+plot_dat_laplace <- filter(plot_dat_laplace,
+                           Parameter %in% c("y3~~y2", "y7~~y4")) %>%
+  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25),
+         Parameter = ifelse(Parameter == "y3~~y2",
+                            "cov(y[2], y[3])", "cov(y[4], y[7])"))
+
+
+plot_dat_emp <- sim.res %>%
+  pivot_longer(
+    cols=everything(),
+    names_to = "Parameter",
+    values_to = "Estimate"
+  ) %>%
+  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25),
+         Parameter = ifelse(Parameter == "y2~~y3",
+                            "cov(y[2], y[3])", "cov(y[4], y[7])"))
+
+lty <- c("True" = 1, "Laplace" = 2)
+
+p <- ggplot()+
+  geom_density(data=plot_dat_emp, adjust = 2,
+               aes(x=Estimate, linetype="True"))+
+  geom_density(data=plot_dat_laplace, adjust = 2,
+               aes(x=Estimate, linetype="Laplace"))+
+  #geom_vline(xintercept = 0.25, linetype="dotted")+
+  scale_linetype_manual(values = lty, name=NULL)+
+  facet_wrap(.~Parameter, labeller = label_parsed)+
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        strip.background = element_blank(),
+        legend.position = "bottom",
+        text=element_text(size=13))
+p
+
+#ggsave("manuscript/fig/sampling_dist.pdf", p, units="in", width=7, height=3.5)
+
+
+```

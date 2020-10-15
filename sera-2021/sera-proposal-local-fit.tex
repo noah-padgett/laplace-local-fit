@@ -1,0 +1,161 @@
+%\documentclass[12pt]{apa7}
+\documentclass[man, noextraspace, floatsintext, 12pt]{apa7}
+%\documentclass[12pt, noextraspace, floatsintext]{apa6}
+%\documentclass[man, 12pt, noextraspace, floatsintext]{apa6}
+%\documentclass[11pt]{article}
+
+% ADD REVIEWING PACKAGE
+%\usepackage{easyReview}
+% Show reviews/edits or not?
+%\setreviewson
+%\setreviewsoff
+% Line numbers for ease of pointing to lines
+\usepackage{lineno} %[pagewise]
+%\linenumbers
+
+\usepackage{pdflscape}
+%Math typesetting packages
+\usepackage{amsfonts, amssymb, amsmath, latexsym, amsthm}
+%for URLs in-text 
+\usepackage{url}
+% ================
+% = Bibliography =
+% ================
+%APA style citations and references
+%\usepackage[utf8]{inputenc}
+%\usepackage{babel,csquotes,xpatch}
+\usepackage[backend=biber, style=apa, natbib]{biblatex}
+\addbibresource{references.bib}
+
+%\usepackage[natbibapa]{apacite} 
+% for hanging-indentation style using apacite
+%\setlength{\bibindent}{2.5em}
+%\setlength{\bibleftmargin}{0em}
+% ==========
+% = Floats =
+% ==========
+\usepackage{float}
+% include external pictures
+\usepackage{graphicx} %Graphics/figures
+% rotate figures/tables
+\usepackage{rotating} 
+% For professional tables
+\usepackage{booktabs,threeparttable, multirow} 
+\usepackage{tabularx}
+% For fixing the column widths
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% ===================
+% ==== Tikz Diagrams	==
+% ===================
+\usepackage{tikz}
+\usetikzlibrary{calc,arrows,positioning,shapes,shapes.gates.logic.US,trees, intersections}
+% =======================
+% === Other useful packages ==
+% =======================
+\usepackage[T1]{fontenc} 
+\usepackage{placeins}
+\usepackage{hyperref}
+% subcaptions/subfigures %,justification=centered
+\usepackage[hypcap=true,width=\textwidth]{subcaption}
+% =============
+%  == formatting ==
+% =============
+% \usepackage[margin=1in]{geometry}
+% \setlength{\parindent}{0.5in}
+\usepackage{setspace}
+% \doublespacing
+\singlespacing
+
+\title{Assessing local fit in confirmatory factor models by approximating probabilities}
+
+\authorsnames{R. Noah Padgett}
+\authorsaffiliations{{Department of Educational Psychology, Baylor University}}
+
+\shorttitle{Assessing Local Fit} % For APA package
+
+\abstract{Validity evidence for factor structures underlying a set of items can come from how well a proposed model reconstructs, or fits, the observed relationships.
+Global model fit is limited in that some components of the proposed model fit better than other components.
+This limitation has lead to the recommendation of examining fit locally within model components.
+We describe a new probabilistic approach to assessing local fit using a Bayesian approximation, and illustrate use with a simulated dataset.
+We show how the posterior approximation closely approximated the sampling distribution of the true parameter.
+We discuss potential limitation and possible generalizations.
+} % End abstract
+
+\keywords{factor-analysis, local fit, model-fit, Bayesian approximation}
+
+\authornote{
+R. Noah Padgett, Department of Educational Psychology, Baylor University.
+
+Correspondence concerning this article should be address to R. Noah Padgett, Department of Educational Psychology, One Bear Place \# 97304, Baylor University, Waco, TX 76798. Contact: \href{mailto:noah\_padgett1@baylor.edu}{\tt noah\_padgett1@baylor.edu}
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Statement of Purpose}
+
+Assessing the fit of a structural equation model to data is routine to provide evidence that the model adequately captures the interrelationships among key variables.
+In recent years, a push away from a global assessment of model fit has taken root \citep{Steiger2007, Jackson2009, Crede2019, Bollen2019}.
+Current approaches to assessing local fit in structural equation modeling such as investigating residual matrices \citep{ Maydeu2017}, modification indices \citep{Sorbom1989}, Wald tests \citep{Wald1943, Buse1982}, likelihood ratio tests \citep{Neyman1928}, and model-implied instrumental variables \citep{Bollen1995, Bollen2019}.
+But, this process is not without potential drawbacks.
+For example, modification indices can lead to conflicting information about sources of misfit leading to statistically equivalent models.
+Aside from investigating standardized residuals \citep{Maydeu2017}, most current methods of investigating local fit rely on non-intuitive metrics (e.g., modification indices, likelihood ratios, or p-values); however, we are proposing a more directly interpretable approach using probabilities for local fit assessment. 
+We have developed an approach to assessing model fit to help researchers get a sense of how meaningful model parameters could be if introduced into the model.
+The purpose of this paper is to described our approach method for assessing fit of confirmatory factor analysis model by means of an easily interpreted probability.
+
+
+\section*{Perspective \& Theoretical Framework}
+
+Local fit assessment by means of investigating residual matrices, modification indices, Wald tests, likelihood ratio tests or model-implied instrumental variables has been shown to provide useful information in a variety of contexts \citep{Whittaker2012, Maydeu2017}.
+However, we were still left in a bit of quandary as to whether any potential changes would be of a substantive importance.
+We have developed a hopefully straightforward approach to tackling this aspect of local fit evaluation by means of in iterative approximation of the non-estimated parameters.
+In our experience, we have found that the model changes proposed through modification indices results in parameter estimates that were of little substantive meaning.
+For example, a cross-loading that is low or a residual covariance that suggests a weak relationship that substantively doesn't add to our understanding of the measurement of the construct of interest.
+
+We propose a method that approximates what the magnitude of the non-estimated parameters would be and to couch the estimates in terms of the probability that the parameter is of substantive interest.
+The idea is to define a region of the parameter space that we would consider to be of substantive meaningfulness.
+A natural choice in the case of factor loadings is to define the region as $\vert \lambda \vert \geq 0.32$, which is the threshold typically considered as the bound for standardized factor loadings in exploratory factor analysis.
+However, we are not restricted to this region; for example, we might be interested in knowing if any loadings would likely be greater than $1$, indicating that the item loads more strongly than the item we fixed for identification.
+This approach of approximating regions is similar to defining a ``region of practical equivalence (ROPE)'' described in \textcite{Shi2019} as a Bayesian approach for measurement invariance testing.
+The ROPE is a region in the parameter space that the researcher determines to be insignificant, and this is already done in most applications of exploratory factor analysis (EFA) when the researcher suppresses factor loadings that are below 0.32 \citep{Benson1998}.
+
+\section*{Methods \& Procedures}
+In this study, we first to illustrate how the proposed probabilistic approach works to help model modification we used a known population model of a three factor model with four items per factor and two residual covariances among observed items which is similar to the model described in \citep{Bollen2019}.
+A sample of 300 was simulated from this population and fit to the model with the residual covariances.
+The proposed model modification approach was applied and the resulting probabilities are reported.
+Secondly, we conducted a small simulation study to evaluate the relative difference between the approximated probabilities and the true sampling distribution of the parameters excluded from the model.
+For this, we generated data from the true population model 10,000 times and estimated the true model to each dataset.
+From the 10,000 results, we extracted the model parameters and constructed the sampling distribution of all parameters.
+We compared the approximated probability distribution from our approach to the true sampling distribution above.
+
+\section*{Results \& Conclusions}
+Using the generated sample of 300 from the population, the misspecified model was fit to these data using \textsf{lavaan} \citep{Rosseel2012}.
+We found evidence that the model does not fit these data $(\chi^2(51) = 72.8, p = 0.024)$. 
+We found that the proposed approach resulted in the excluded paths form the true generating model to have the highest probability of being outside the region of practically equivalent to zero (ROPEZ).
+For each of the residual covariances, the probabilities were 0.81 and 0.46, respectively; while for all zero paths in the population, the probabilities were all less than 0.25.
+The estimated probability distribution and the true sampling distributions overlapped considerably for both residual covariances.
+
+\section*{Educational or Scientific Importance}
+
+Factor analysis models are used frequently in educational research to help measure latent constructs.
+However, the results of such studies relies on the model constructed and whether all relevant relationships among observed variables are accounted for by a researcher's proposed model.
+In this study, we have developed and shown how a new approach to model local fit assessment can be conducted.
+The proposed approach provides researchers with a tool that can help provide a simple interpretation of whether additional model components should be added.
+The approach will allow researchers to set defined bounds on what they know is relevant to the problem at hand which allows for substantively important features to shine through model results.
+
+% ====================================== %
+\newpage
+\raggedright
+%\bibliographystyle{apacite} 
+% You may have to select another style. Remember: LaTeX, BibTeX, LaTeX, LaTex to get the citations to appear
+%\raggedright
+%\urlstyle{same}
+%\bibliography{references}
+\printbibliography
+%
+\end{document}

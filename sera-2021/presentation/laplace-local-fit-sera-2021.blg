@@ -1,0 +1,20 @@
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[6] Config.pm:315> INFO - Logfile is 'laplace-local-fit-sera-2021.blg'
+[155] biber-MSWIN64:330> INFO - === 
+[192] Biber.pm:415> INFO - Reading 'laplace-local-fit-sera-2021.bcf'
+[337] Biber.pm:952> INFO - Found 16 citekeys in bib section 0
+[364] Biber.pm:4334> INFO - Processing section 0
+[383] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[396] bibtex.pm:1682> INFO - LaTeX decoding ...
+[485] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[568] Utils.pm:395> WARN - month field 'may' in entry 'Maydeu2018' is not an integer - this will probably not sort properly.
+[575] Utils.pm:395> WARN - month field 'sep' in entry 'Sorbom1989' is not an integer - this will probably not sort properly.
+[580] Utils.pm:395> WARN - month field 'jul' in entry 'Kaplan1989' is not an integer - this will probably not sort properly.
+[587] Utils.pm:395> WARN - month field 'aug' in entry 'Buse1982' is not an integer - this will probably not sort properly.
+[642] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[643] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[644] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[644] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[666] bbl.pm:651> INFO - Writing 'laplace-local-fit-sera-2021.bbl' with encoding 'UTF-8'
+[692] bbl.pm:754> INFO - Output to laplace-local-fit-sera-2021.bbl
+[698] Biber.pm:128> INFO - WARNINGS: 4
