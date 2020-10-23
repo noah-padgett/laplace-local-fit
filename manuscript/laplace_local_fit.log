@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  15 OCT 2020 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  23 OCT 2020 00:04
 entering extended mode
 **./laplace_local_fit.tex
 (laplace_local_fit.tex
@@ -1680,7 +1680,7 @@ Package logreq Info: Writing requests to 'laplace_local_fit.run.xml'.
 Here is how much of TeX's memory you used:
  34523 strings out of 481199
  692429 string characters out of 2903687
- 1456361 words of memory out of 3000000
+ 1456358 words of memory out of 3000000
  49381 multiletter control sequences out of 15000+200000
  576711 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1708,7 +1708,7 @@ y10.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy8.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /lm/lmtt12.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb>
-Output written on laplace_local_fit.pdf (19 pages, 325872 bytes).
+Output written on laplace_local_fit.pdf (19 pages, 325378 bytes).
 PDF statistics:
  369 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)

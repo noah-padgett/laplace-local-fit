@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Local Fit Assessment"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -9,3 +9,7 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+* [Laplace Approx](laplace_approx.html)
+* [Simulation Study](simulation_study.html)
+

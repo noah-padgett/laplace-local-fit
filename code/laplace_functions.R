@@ -239,7 +239,7 @@ laplace_local_fit <- function(fit, cut.load = 0.3, cut.cov = 0.1, standardize=T,
   # iterate around this function
   fitResults <- matrix(nrow=opt[[2]], ncol=it)
   # progress bar
-  progress_bar <- txtProgressBar(min = 0, max = it, style = 3)
+  if(pb==T) progress_bar <- txtProgressBar(min = 0, max = it, style = 3)
   iter <- 1
   for(iter in 1:it){
     

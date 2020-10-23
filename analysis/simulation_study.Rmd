@@ -1,11 +1,11 @@
 ---
 title: "Monte Carlo Simulation"
 author: "R. Noah Padgett"
-date: "8/20/2020"
+date: "2020-10-22"
 output: html_document
 ---
 
-```{r setup}
+```{r setup, echo=F, warning=F, error=F, message=F}
 
 library(xtable)
 library(tidyr)
@@ -20,7 +20,7 @@ library(data.table)
 library(tcltk)
 
 # Set Seed for Reproducibility
-set.seed(1234)
+set.seed(20201001)
 
 # summary objects
 nrep <- 1000
@@ -30,23 +30,56 @@ sim.res <- as.data.frame(matrix(nrow=nrep, ncol=nvar))
 ```
 
 
-# Simulation Study
-
+# Proposed Model with Analytic Expectations
 
 ```{r}
 
+lambda <- matrix(
+  c(rep(0.8,4), rep(0,4), rep(0,4),
+    rep(0,4), rep(0.8,4), rep(0,4),
+    rep(0,4), rep(0,4), rep(0.8,4)), 
+  ncol=3
+)
+phi <- matrix(
+  c(1, 0.3, 0.1,
+    0.3, 1, 0.2,
+    0.1, 0.2, 1),
+  ncol=3
+)
+psi <- diag(1, ncol=12, nrow=12)
+psi[2, 3] <- psi[3, 2] <- 0.25
+psi[4, 7] <- psi[7, 4] <- 0.3
+
+sigma <- lambda%*%phi%*%t(lambda) + psi
+
+sigma
+
+psi_m <- diag(1, ncol=12, nrow=12)
+
+sigma_m <- lambda%*%phi%*%t(lambda) + psi_m
+
+sigma_m - sigma
+
+```
+
+
+# Simulation Study
+
+
+```{r sim-dist, warning=F, error=F, message=F}
+
 # specify population model
 population.model <- ' 
-  f1 =~ 1*y1 + 0.8*y2 + 0.8*y3 + 1.2*y4
-  f2 =~ 1*y5 + 1.1*y6 + 0.8*y7 + 0.9*y8
-  f3 =~ 1*y9 + 0.8*y10 + 1.3*y11 + 0.8*y12
+  f1 =~ 0.8*y1 + 0.8*y2 + 0.8*y3 + 0.8*y4
+  f2 =~ 0.8*y5 + 0.8*y6 + 0.8*y7 + 0.8*y8
+  f3 =~ 0.8*y9 + 0.8*y10 + 0.8*y11 + 0.8*y12
   
   # Factor (co)variances
-  f1 ~~ 0.3*f2 + 0.1*f3
-  f2 ~~ 0.2*f3
-  
+  f1 ~~ 1*f1 + 0.3*f2 + 0.1*f3
+  f2 ~~ 1*f2 + 0.2*f3
+  f3 ~~ 1*f3
   # residual covariances
-  y2 ~~ 0.3*y3
+  y2 ~~ 0.1*y3
   y4 ~~ 0.3*y7
 '
 
@@ -54,45 +87,28 @@ population.model <- '
 
 # analysis model
 analysis.model1 <- ' 
-  f1 =~ y1 + y2 + y3 + y4
-  f2 =~ y5 + y6 + y7 + y8 
-  f3 =~ y9 + y10 + y11 + y12 
+  f1 =~ NA*y1 + y2 + y3 + y4
+  f2 =~ NA*y5 + y6 + y7 + y8 
+  f3 =~ NA*y9 + y10 + y11 + y12 
   
   # Factor covariances
-  f1 ~~ f2 + f3
-  f2 ~~ f3
+  f1 ~~ 1*f1 + f2 + f3
+  f2 ~~ 1*f2 + f3
+  f3 ~~ 1*f3
   
   # residual covariances
   y2 ~~ y3
-'
-
-
-Output <- sim(nrep, model=analysis.model1,
-              n=300, generate=population.model,
-              lavaanfun = "cfa")
-
-sim.res[,1] <- Output@stdCoef[, "y2~~y3"]
-
-
-# analysis model
-analysis.model2 <- ' 
-  f1 =~ y1 + y2 + y3 + y4
-  f2 =~ y5 + y6 + y7 + y8 
-  f3 =~ y9 + y10 + y11 + y12 
-  
-  # Factor covariances
-  f1 ~~ f2 + f3
-  f2 ~~ f3
-  
-  # residual covariances
   y4 ~~ y7
 '
 
-Output <- sim(nrep, model=analysis.model2,
+
+Output <- sim(nrep, model=analysis.model1,silent = T,
               n=300, generate=population.model,
               lavaanfun = "cfa")
 
-sim.res[,2] <- Output@stdCoef[, "y4~~y7"]
+sim.res[,1:2] <- Output@stdCoef[, c("y2~~y3", "y4~~y7")]
+
+
 colnames(sim.res) <- c("y2~~y3", "y4~~y7")
 plot_dat <- sim.res %>%
   pivot_longer(
@@ -103,7 +119,7 @@ plot_dat <- sim.res %>%
   mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25))
 
 p <- ggplot(plot_dat, aes(x=Estimate))+
-  geom_density()+
+  geom_density(adjust = 2)+
   geom_vline(aes(xintercept = V), linetype="dashed")+
   #geom_vline(aes(xintercept = -V), linetype="dashed")+
   facet_wrap(.~Parameter)+
@@ -118,7 +134,7 @@ mean(sim.res[,2] > 0.25)
 
 # Laplace Approximation
 
-```{r}
+```{r run-lppa, warning=F, error=F, message=F}
 
 
 
@@ -129,17 +145,17 @@ source(paste0(wd, "/code/laplace_functions.R"))
 
 # specify population model
 population.model <- ' 
-  f1 =~ 1*y1 + 0.8*y2 + 0.8*y3 + 1.2*y4
-  f2 =~ 1*y5 + 1.1*y6 + 0.8*y7 + 0.9*y8
-  f3 =~ 1*y9 + 0.8*y10 + 1.3*y11 + 0.8*y12
+  f1 =~ 0.8*y1 + 0.8*y2 + 0.8*y3 + 0.8*y4
+  f2 =~ 0.8*y5 + 0.8*y6 + 0.8*y7 + 0.8*y8
+  f3 =~ 0.8*y9 + 0.8*y10 + 0.8*y11 + 0.8*y12
   
   # Factor (co)variances
-  f1 ~~ 0.3*f2 + 0.1*f3
-  f2 ~~ 0.2*f3
-  
+  f1 ~~ 1*f1 + 0.3*f2 + 0.1*f3
+  f2 ~~ 1*f2 + 0.2*f3
+  f3 ~~ 1*f3
   # residual covariances
-  y2 ~~ 0.3*y3
   y4 ~~ 0.3*y7
+  y2 ~~ 0.1*y3
 '
 
 # generate data
@@ -154,16 +170,21 @@ myModel <- '
   # Factor covariances
   f1 ~~ f2 + f3
   f2 ~~ f3
+
 '
 fit <- cfa(myModel, data=myData)
-summary(fit)
-
+summary(fit, standardized=T)
 
 lfit <- laplace_local_fit(
   fit, data=myData, cut.load = 0.32, cut.cov = 0.25,
-  standardize = T,
-  opt=list(scale.cov=1, no.samples=1000))
+  standardize = T, pb = F,
+  opt=list(scale.cov=1, no.samples=10000))
 
+library(kableExtra)
+
+kable(lfit$Summary, format="html", digits=3) %>%
+  kable_styling(full_width = T) %>%
+  scroll_box(width="100%", height = "500px")
 
 ```
 
@@ -216,7 +237,7 @@ p <- ggplot()+
         text=element_text(size=13))
 p
 
-#ggsave("manuscript/fig/sampling_dist.pdf", p, units="in", width=7, height=3.5)
+ggsave("manuscript/fig/sampling_dist.pdf", p, units="in", width=7, height=3.5)
 
 
 ```

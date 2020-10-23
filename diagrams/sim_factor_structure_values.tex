@@ -23,10 +23,10 @@
         regular polygon sides=3,draw,thick,inner sep=0pt,minimum size=10mm},
 	mean/.style={regular polygon,regular polygon sides=3,draw,thick,inner sep=0pt,minimum size=10mm},
 	paths/.style={->, thick, >=stealth'},
-	variance/.style={<->, thick, >=stealth', bend left=270, looseness=2},
-	varianceTop/.style={<->, thick, >=stealth', bend right=270, looseness=2},
-	unique/.style={<->, thick, >=stealth', loop below=270, looseness=8},
-	factvar/.style={<->, thick, >=stealth', loop right=270, looseness=8}
+	variance/.style={<->, thick, >=stealth', loop below=270, looseness=5},
+	varianceTop/.style={<->, thick, >=stealth', loop above=270, looseness=5},
+	unique/.style={<->, thick, >=stealth', loop left=270, looseness=5},
+	factvar/.style={<->, thick, >=stealth', loop right=270, looseness=5}
 	] % End Creating Path Model Pieces
 \tikzset{mystyle/.style={->,double=black}}
 
@@ -54,28 +54,34 @@
 \node [manifest] (x11) [right =.25cm of x10] {$Y_{11}$};
 \node [manifest] (x12) [right =.25cm of x11] {$Y_{12}$};
 
-\draw [paths] (c1) to node[pos=0.4, xshift=-5]  {$1$}   (x1.north);
+\draw [paths] (c1) to node[pos=0.4, xshift=-5]  {$0.8$}   (x1.north);
 \draw [paths] (c1) to node[pos=0.35, xshift=-3]  {$0.8$}   (x2.north);
-\draw [paths] (c1) to node[pos=0.7, xshift=-3]  {$0.65$}   (x3.north);
-\draw [paths] (c1) to node[pos=0.75, xshift=-7]  {$1.2$}   (x4.north);
+\draw [paths] (c1) to node[pos=0.7, xshift=-3]  {$0.8$}   (x3.north);
+\draw [paths] (c1) to node[pos=0.75, xshift=-7]  {$0.8$}   (x4.north);
 
-\draw [paths] (c2) to node[pos=0.4, xshift=-5]  {$1$}   (x5.north);
-\draw [paths] (c2) to node[pos=0.35, xshift=-3]  {$1.1$}   (x6.north);
+\draw [paths] (c2) to node[pos=0.4, xshift=-5]  {$0.8$}   (x5.north);
+\draw [paths] (c2) to node[pos=0.35, xshift=-3]  {$0.8$}   (x6.north);
 \draw [paths] (c2) to node[pos=0.7, xshift=-3]  {$0.8$}   (x7.north);
-\draw [paths] (c2) to node[pos=0.75, xshift=-7]  {$0.9$}   (x8.north);
+\draw [paths] (c2) to node[pos=0.75, xshift=-7]  {$0.8$}   (x8.north);
 
-\draw [paths] (c3) to node[pos=0.7, xshift=7]  {$1$}   (x9.south);
+\draw [paths] (c3) to node[pos=0.7, xshift=7]  {$0.8$}   (x9.south);
 \draw [paths] (c3) to node[pos=0.7, xshift=5]  {$0.8$}   (x10.south);
-\draw [paths] (c3) to node[pos=0.35, xshift=5]  {$1.3$}   (x11.south);
+\draw [paths] (c3) to node[pos=0.35, xshift=5]  {$0.8$}   (x11.south);
 \draw [paths] (c3) to node[pos=0.4, xshift=7]  {$0.8$}   (x12.south);
 
-\draw [fcorr] (c1) to node[below]{$0.3$} (c2);
+% Factor variance
+\draw [unique] (c1) to node[left]{$1$} (c1);
+\draw [factvar] (c2) to node[right]{$1$} (c2);
+\draw [variance] (c3) to node[below]{$1$} (c3);
+
+% factor correlation
+\draw [lcorr] (c1.east) to node[above]{$0.3$} (c2.west);
 \draw [fcorr] (c1) to node[below, xshift=8]{$0.1$} (c3);
 \draw [lcorr] (c2) to node {$0.2$} (c3);
 
 
 % error covariances
-\draw[ofcorr] (x2) to node[below] {$0.3$} (x3);
+\draw[ofcorr] (x2) to node[below] {$0.1$} (x3);
 \draw[ofcorr] (x4) to node[below] {$0.3$} (x7);
 \end{tikzpicture}
 \end{document}
