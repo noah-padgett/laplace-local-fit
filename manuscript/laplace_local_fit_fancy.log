@@ -1,11 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  27 OCT 2020 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  25 OCT 2020 15:08
 entering extended mode
-**./laplace_local_fit.tex
-(laplace_local_fit.tex
+**./laplace_local_fit_fancy.tex
+(laplace_local_fit_fancy.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-09-03>
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apa7\apa7.cls"
 Document Class: apa7 2020/08/12 v2.03 APA formatting (7th edition)
+Class apa7 Info: Using default mode (jou) on input line 152.
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
@@ -74,6 +75,87 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\txfonts.st
+y"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+)
+apa7.cls: Using txfonts
+
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -709,46 +791,40 @@ Package caption Info: threeparttable package is loaded.
 \gr@boxheight=\skip72
  ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
 \c@appendix=\count290
 
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
-sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sttools\flushend.s
+ty"
+Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
+\flushend@@lastskip@a=\skip73
+\flushend@@lastskip@b=\skip74
+\flushend@@lastskip@c=\skip75
+\flushend@@penalty@a=\count291
+\flushend@@lastkern@a=\dimen281
+\var@@temp@spread=\dimen282
+\var@@temp@a=\dimen283
+\flushend@@page@rule=\dimen284
+\flushend@@varbox@a=\box58
+\flushend@@varbox@c=\box59
+\flushend@@tempbox@a=\box60
+\flushend@@tempbox@c=\box61
+\@viper=\box62
+\hold@viper=\box63
+\atColsBreak=\toks29
+\atColsEnd=\toks30
 )
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/endfloat\endfloat.
-sty"
-Package: endfloat 2019/04/15 v2.7 LaTeX2e package puts figures and tables at en
-d (jdm)
-\c@posttable=\count291
-\efloat@postttt=\write4
-\@ef@tttopen=\count292
-\c@postfigure=\count293
-\efloat@postfff=\write5
-\@ef@fffopen=\count294
-)
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count295
-\float@exts=\toks29
-\float@box=\box58
-\@float@everytoks=\toks30
-\@floatcapt=\box59
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\ftnright.sty
+"
+Package: ftnright 2014/10/28 v1.1f footnote layout package (FMi)
+\rcol@footinsskip=\skip76
+\ftn@amount=\dimen285
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/easyreview\easyRev
 iew.sty"
@@ -762,10 +838,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks33
 \SOUL@buffer=\toks34
 \SOUL@token=\toks35
-\SOUL@spaceskip=\skip82
-\SOUL@ttwidth=\dimen281
-\SOUL@uldp=\dimen282
-\SOUL@ulht=\dimen283
+\SOUL@spaceskip=\skip77
+\SOUL@ttwidth=\dimen286
+\SOUL@uldp=\dimen287
+\SOUL@ulht=\dimen288
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/todonotes\todonote
 s.sty"
@@ -786,7 +862,7 @@ tex"
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count296
+\XKV@depth=\count292
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
@@ -805,24 +881,24 @@ File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 flibraryfadings.code.tex"
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\c@@todonotes@numberoftodonotes=\count297
+\c@@todonotes@numberoftodonotes=\count293
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count298
+\linenopenalty=\count294
 \output=\toks38
-\linenoprevgraf=\count299
-\linenumbersep=\dimen284
-\linenumberwidth=\dimen285
-\c@linenumber=\count300
-\c@pagewiselinenumber=\count301
-\c@LN@truepage=\count302
-\c@internallinenumber=\count303
-\c@internallinenumbers=\count304
-\quotelinenumbersep=\dimen286
-\bframerule=\dimen287
-\bframesep=\dimen288
-\bframebox=\box60
+\linenoprevgraf=\count295
+\linenumbersep=\dimen289
+\linenumberwidth=\dimen290
+\c@linenumber=\count296
+\c@pagewiselinenumber=\count297
+\c@LN@truepage=\count298
+\c@internallinenumber=\count299
+\c@internallinenumbers=\count300
+\quotelinenumbersep=\dimen291
+\bframerule=\dimen292
+\bframesep=\dimen293
+\bframebox=\box64
 LaTeX Info: Redefining \\ on input line 3056.
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.st
@@ -833,20 +909,244 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks39
-\symAMSa=\mathgroup7
-\symAMSb=\mathgroup8
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
 ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip83
+\@mathmargin=\skip78
 
 For additional information on amsmath, use the `?' option.
 
@@ -858,59 +1158,59 @@ Package: amstext 2000/06/29 v2.01 AMS text
 "
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks40
-\ex@=\dimen289
+\ex@=\dimen294
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen290
+\pmbraise@=\dimen295
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
 "
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count305
+\inf@bad=\count301
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count306
-\leftroot@=\count307
+\uproot@=\count302
+\leftroot@=\count303
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count308
-\DOTSCASE@=\count309
+\classnum@=\count304
+\DOTSCASE@=\count305
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box61
-\strutbox@=\box62
-\big@size=\dimen291
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen296
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count310
-\c@MaxMatrixCols=\count311
+\macc@depth=\count306
+\c@MaxMatrixCols=\count307
 \dotsspace@=\muskip17
-\c@parentequation=\count312
-\dspbrk@lvl=\count313
+\c@parentequation=\count308
+\dspbrk@lvl=\count309
 \tag@help=\toks41
-\row@=\count314
-\column@=\count315
-\maxfields@=\count316
+\row@=\count310
+\column@=\count311
+\maxfields@=\count312
 \andhelp@=\toks42
-\eqnshift@=\dimen292
-\alignsep@=\dimen293
-\tagshift@=\dimen294
-\tagwidth@=\dimen295
-\totwidth@=\dimen296
-\lineht@=\dimen297
+\eqnshift@=\dimen297
+\alignsep@=\dimen298
+\tagshift@=\dimen299
+\tagwidth@=\dimen300
+\totwidth@=\dimen301
+\lineht@=\dimen302
 \@envbody=\toks43
-\multlinegap=\skip84
-\multlinetaggap=\skip85
+\multlinegap=\skip79
+\multlinetaggap=\skip80
 \mathdisplay@stack=\toks44
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup9
+\symlasy=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.st
@@ -921,10 +1221,11 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks47
 \thm@notefont=\toks48
 \thm@headpunct=\toks49
-\thm@preskip=\skip86
-\thm@postskip=\skip87
-\thm@headsep=\skip88
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
 \dth@everypar=\toks50
+LaTeX Info: Redefining \textsquare on input line 427.
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
 sty"
@@ -932,66 +1233,66 @@ Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count317
+\lrq@indent=\count313
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count318
-\c@listtotal=\count319
-\c@listcount=\count320
-\c@liststart=\count321
-\c@liststop=\count322
-\c@citecount=\count323
-\c@citetotal=\count324
-\c@multicitecount=\count325
-\c@multicitetotal=\count326
-\c@instcount=\count327
-\c@maxnames=\count328
-\c@minnames=\count329
-\c@maxitems=\count330
-\c@minitems=\count331
-\c@citecounter=\count332
-\c@maxcitecounter=\count333
-\c@savedcitecounter=\count334
-\c@uniquelist=\count335
-\c@uniquename=\count336
-\c@refsection=\count337
-\c@refsegment=\count338
-\c@maxextratitle=\count339
-\c@maxextratitleyear=\count340
-\c@maxextraname=\count341
-\c@maxextradate=\count342
-\c@maxextraalpha=\count343
-\c@abbrvpenalty=\count344
-\c@highnamepenalty=\count345
-\c@lownamepenalty=\count346
-\c@maxparens=\count347
-\c@parenlevel=\count348
-\blx@tempcnta=\count349
-\blx@tempcntb=\count350
-\blx@tempcntc=\count351
-\blx@maxsection=\count352
-\blx@maxsegment@0=\count353
-\blx@notetype=\count354
-\blx@parenlevel@text=\count355
-\blx@parenlevel@foot=\count356
-\blx@sectionciteorder@0=\count357
-\blx@entrysetcounter=\count358
-\blx@biblioinstance=\count359
-\labelnumberwidth=\skip89
-\labelalphawidth=\skip90
-\biblabelsep=\skip91
-\bibitemsep=\skip92
-\bibnamesep=\skip93
-\bibinitsep=\skip94
-\bibparsep=\skip95
-\bibhang=\skip96
+\c@tabx@nest=\count314
+\c@listtotal=\count315
+\c@listcount=\count316
+\c@liststart=\count317
+\c@liststop=\count318
+\c@citecount=\count319
+\c@citetotal=\count320
+\c@multicitecount=\count321
+\c@multicitetotal=\count322
+\c@instcount=\count323
+\c@maxnames=\count324
+\c@minnames=\count325
+\c@maxitems=\count326
+\c@minitems=\count327
+\c@citecounter=\count328
+\c@maxcitecounter=\count329
+\c@savedcitecounter=\count330
+\c@uniquelist=\count331
+\c@uniquename=\count332
+\c@refsection=\count333
+\c@refsegment=\count334
+\c@maxextratitle=\count335
+\c@maxextratitleyear=\count336
+\c@maxextraname=\count337
+\c@maxextradate=\count338
+\c@maxextraalpha=\count339
+\c@abbrvpenalty=\count340
+\c@highnamepenalty=\count341
+\c@lownamepenalty=\count342
+\c@maxparens=\count343
+\c@parenlevel=\count344
+\blx@tempcnta=\count345
+\blx@tempcntb=\count346
+\blx@tempcntc=\count347
+\blx@maxsection=\count348
+\blx@maxsegment@0=\count349
+\blx@notetype=\count350
+\blx@parenlevel@text=\count351
+\blx@parenlevel@foot=\count352
+\blx@sectionciteorder@0=\count353
+\blx@entrysetcounter=\count354
+\blx@biblioinstance=\count355
+\labelnumberwidth=\skip84
+\labelalphawidth=\skip85
+\biblabelsep=\skip86
+\bibitemsep=\skip87
+\bibnamesep=\skip88
+\bibinitsep=\skip89
+\bibparsep=\skip90
+\bibhang=\skip91
 \blx@bcfin=\read3
-\blx@bcfout=\write6
+\blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count360
-\c@maxcomprange=\count361
-\c@mincompwidth=\count362
+\c@mincomprange=\count356
+\c@maxcomprange=\count357
+\c@mincompwidth=\count358
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1008,100 +1309,100 @@ File: apa.dbx 2020/08/28 v9.14 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count363
-\c@savedafterword=\count364
-\c@annotator=\count365
-\c@savedannotator=\count366
-\c@author=\count367
-\c@savedauthor=\count368
-\c@bookauthor=\count369
-\c@savedbookauthor=\count370
-\c@commentator=\count371
-\c@savedcommentator=\count372
-\c@editor=\count373
-\c@savededitor=\count374
-\c@editora=\count375
-\c@savededitora=\count376
-\c@editorb=\count377
-\c@savededitorb=\count378
-\c@editorc=\count379
-\c@savededitorc=\count380
-\c@foreword=\count381
-\c@savedforeword=\count382
-\c@holder=\count383
-\c@savedholder=\count384
-\c@introduction=\count385
-\c@savedintroduction=\count386
-\c@namea=\count387
-\c@savednamea=\count388
-\c@nameb=\count389
-\c@savednameb=\count390
-\c@namec=\count391
-\c@savednamec=\count392
-\c@translator=\count393
-\c@savedtranslator=\count394
-\c@shortauthor=\count395
-\c@savedshortauthor=\count396
-\c@shorteditor=\count397
-\c@savedshorteditor=\count398
-\c@groupauthor=\count399
-\c@savedgroupauthor=\count400
-\c@narrator=\count401
-\c@savednarrator=\count402
-\c@execproducer=\count403
-\c@savedexecproducer=\count404
-\c@execdirector=\count405
-\c@savedexecdirector=\count406
-\c@with=\count407
-\c@savedwith=\count408
-\c@labelname=\count409
-\c@savedlabelname=\count410
-\c@institution=\count411
-\c@savedinstitution=\count412
-\c@lista=\count413
-\c@savedlista=\count414
-\c@listb=\count415
-\c@savedlistb=\count416
-\c@listc=\count417
-\c@savedlistc=\count418
-\c@listd=\count419
-\c@savedlistd=\count420
-\c@liste=\count421
-\c@savedliste=\count422
-\c@listf=\count423
-\c@savedlistf=\count424
-\c@location=\count425
-\c@savedlocation=\count426
-\c@organization=\count427
-\c@savedorganization=\count428
-\c@origlocation=\count429
-\c@savedoriglocation=\count430
-\c@origpublisher=\count431
-\c@savedorigpublisher=\count432
-\c@publisher=\count433
-\c@savedpublisher=\count434
-\c@language=\count435
-\c@savedlanguage=\count436
-\c@origlanguage=\count437
-\c@savedoriglanguage=\count438
-\c@citation=\count439
-\c@savedcitation=\count440
-\c@pageref=\count441
-\c@savedpageref=\count442
-\shorthandwidth=\skip97
-\shortjournalwidth=\skip98
-\shortserieswidth=\skip99
-\shorttitlewidth=\skip100
-\shortauthorwidth=\skip101
-\shorteditorwidth=\skip102
-\locallabelnumberwidth=\skip103
-\locallabelalphawidth=\skip104
-\localshorthandwidth=\skip105
-\localshortjournalwidth=\skip106
-\localshortserieswidth=\skip107
-\localshorttitlewidth=\skip108
-\localshortauthorwidth=\skip109
-\localshorteditorwidth=\skip110
+\c@afterword=\count359
+\c@savedafterword=\count360
+\c@annotator=\count361
+\c@savedannotator=\count362
+\c@author=\count363
+\c@savedauthor=\count364
+\c@bookauthor=\count365
+\c@savedbookauthor=\count366
+\c@commentator=\count367
+\c@savedcommentator=\count368
+\c@editor=\count369
+\c@savededitor=\count370
+\c@editora=\count371
+\c@savededitora=\count372
+\c@editorb=\count373
+\c@savededitorb=\count374
+\c@editorc=\count375
+\c@savededitorc=\count376
+\c@foreword=\count377
+\c@savedforeword=\count378
+\c@holder=\count379
+\c@savedholder=\count380
+\c@introduction=\count381
+\c@savedintroduction=\count382
+\c@namea=\count383
+\c@savednamea=\count384
+\c@nameb=\count385
+\c@savednameb=\count386
+\c@namec=\count387
+\c@savednamec=\count388
+\c@translator=\count389
+\c@savedtranslator=\count390
+\c@shortauthor=\count391
+\c@savedshortauthor=\count392
+\c@shorteditor=\count393
+\c@savedshorteditor=\count394
+\c@groupauthor=\count395
+\c@savedgroupauthor=\count396
+\c@narrator=\count397
+\c@savednarrator=\count398
+\c@execproducer=\count399
+\c@savedexecproducer=\count400
+\c@execdirector=\count401
+\c@savedexecdirector=\count402
+\c@with=\count403
+\c@savedwith=\count404
+\c@labelname=\count405
+\c@savedlabelname=\count406
+\c@institution=\count407
+\c@savedinstitution=\count408
+\c@lista=\count409
+\c@savedlista=\count410
+\c@listb=\count411
+\c@savedlistb=\count412
+\c@listc=\count413
+\c@savedlistc=\count414
+\c@listd=\count415
+\c@savedlistd=\count416
+\c@liste=\count417
+\c@savedliste=\count418
+\c@listf=\count419
+\c@savedlistf=\count420
+\c@location=\count421
+\c@savedlocation=\count422
+\c@organization=\count423
+\c@savedorganization=\count424
+\c@origlocation=\count425
+\c@savedoriglocation=\count426
+\c@origpublisher=\count427
+\c@savedorigpublisher=\count428
+\c@publisher=\count429
+\c@savedpublisher=\count430
+\c@language=\count431
+\c@savedlanguage=\count432
+\c@origlanguage=\count433
+\c@savedoriglanguage=\count434
+\c@citation=\count435
+\c@savedcitation=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip92
+\shortjournalwidth=\skip93
+\shortserieswidth=\skip94
+\shorttitlewidth=\skip95
+\shortauthorwidth=\skip96
+\shorteditorwidth=\skip97
+\locallabelnumberwidth=\skip98
+\locallabelalphawidth=\skip99
+\localshorthandwidth=\skip100
+\localshortjournalwidth=\skip101
+\localshortserieswidth=\skip102
+\localshorttitlewidth=\skip103
+\localshortauthorwidth=\skip104
+\localshorteditorwidth=\skip105
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1116,8 +1417,8 @@ Package: expl3 2020-09-03 L3 programming layer (loader)
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdftex.def"
 File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count443
-\l__pdf_internal_box=\box63
+\l__kernel_color_stack_int=\count439
+\l__pdf_internal_box=\box67
 ))
 Package biblatex Info: expl3
 (biblatex)             2020-09-03 L3 programming layer (loader) 
@@ -1134,10 +1435,10 @@ Package: xparse 2020-05-15 L3 Experimental document command parser
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
 xparse-generic.tex"
-\l__xparse_current_arg_int=\count444
-\g__xparse_grabber_int=\count445
-\l__xparse_m_args_int=\count446
-\l__xparse_v_nesting_int=\count447
+\l__xparse_current_arg_int=\count440
+\g__xparse_grabber_int=\count441
+\l__xparse_m_args_int=\count442
+\l__xparse_v_nesting_int=\count443
 ))
 File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
 )
@@ -1147,19 +1448,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
 def"
 File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count448
-\c@textcitetotal=\count449
-\c@textcitemaxnames=\count450
-\c@biburlbigbreakpenalty=\count451
-\c@biburlbreakpenalty=\count452
-\c@biburlnumpenalty=\count453
-\c@biburlucpenalty=\count454
-\c@biburllcpenalty=\count455
+\c@textcitecount=\count444
+\c@textcitetotal=\count445
+\c@textcitemaxnames=\count446
+\c@biburlbigbreakpenalty=\count447
+\c@biburlbreakpenalty=\count448
+\c@biburlnumpenalty=\count449
+\c@biburlucpenalty=\count450
+\c@biburllcpenalty=\count451
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count456
+\c@smartand=\count452
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1182,8 +1483,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
 ard.bbx"
 File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count457
-\c@bbx:relatedtotal=\count458
+\c@bbx:relatedcount=\count453
+\c@bbx:relatedtotal=\count454
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -1220,43 +1521,51 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 cfg"
 File: biblatex.cfg 
 ))
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count455
+\float@exts=\toks51
+\float@box=\box68
+\@float@everytoks=\toks52
+\@floatcapt=\box69
+)
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.
 sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count459
-\rotFPtop=\skip111
-\rotFPbot=\skip112
-\rot@float@box=\box64
-\rot@mess@toks=\toks51
+\c@r@tfl@t=\count456
+\rotFPtop=\skip106
+\rotFPbot=\skip107
+\rot@float@box=\box70
+\rot@mess@toks=\toks53
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
 sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip113
-\multirow@cntb=\count460
-\multirow@dima=\skip114
-\bigstrutjot=\dimen298
+\multirow@colwidth=\skip108
+\multirow@cntb=\count457
+\multirow@dima=\skip109
+\bigstrutjot=\dimen303
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty
 "
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen299
-\ar@mcellbox=\box65
-\extrarowheight=\dimen300
-\NC@list=\toks52
-\extratabsurround=\skip115
-\backup@length=\skip116
-\ar@cellbox=\box66
+\col@sep=\dimen304
+\ar@mcellbox=\box71
+\extrarowheight=\dimen305
+\NC@list=\toks54
+\extratabsurround=\skip110
+\backup@length=\skip111
+\ar@cellbox=\box72
 )
-\TX@col@width=\dimen301
-\TX@old@table=\dimen302
-\TX@old@col=\dimen303
-\TX@target=\dimen304
-\TX@delta=\dimen305
-\TX@cols=\count461
-\TX@ftn=\toks53
+\TX@col@width=\dimen306
+\TX@old@table=\dimen307
+\TX@old@col=\dimen308
+\TX@target=\dimen309
+\TX@delta=\dimen310
+\TX@cols=\count458
+\TX@ftn=\toks55
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarycalc.code.tex"
@@ -1269,7 +1578,7 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen306
+\arrowsize=\dimen311
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibraryshapes.code.tex"
@@ -1318,26 +1627,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
 apes\pgflibraryshapes.multipart.code.tex"
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box67
-\pgfnodeparttwobox=\box68
-\pgfnodepartthreebox=\box69
-\pgfnodepartfourbox=\box70
-\pgfnodeparttwentybox=\box71
-\pgfnodepartnineteenbox=\box72
-\pgfnodeparteighteenbox=\box73
-\pgfnodepartseventeenbox=\box74
-\pgfnodepartsixteenbox=\box75
-\pgfnodepartfifteenbox=\box76
-\pgfnodepartfourteenbox=\box77
-\pgfnodepartthirteenbox=\box78
-\pgfnodeparttwelvebox=\box79
-\pgfnodepartelevenbox=\box80
-\pgfnodeparttenbox=\box81
-\pgfnodepartninebox=\box82
-\pgfnodeparteightbox=\box83
-\pgfnodepartsevenbox=\box84
-\pgfnodepartsixbox=\box85
-\pgfnodepartfivebox=\box86
+\pgfnodepartlowerbox=\box73
+\pgfnodeparttwobox=\box74
+\pgfnodepartthreebox=\box75
+\pgfnodepartfourbox=\box76
+\pgfnodeparttwentybox=\box77
+\pgfnodepartnineteenbox=\box78
+\pgfnodeparteighteenbox=\box79
+\pgfnodepartseventeenbox=\box80
+\pgfnodepartsixteenbox=\box81
+\pgfnodepartfifteenbox=\box82
+\pgfnodepartfourteenbox=\box83
+\pgfnodepartthirteenbox=\box84
+\pgfnodeparttwelvebox=\box85
+\pgfnodepartelevenbox=\box86
+\pgfnodeparttenbox=\box87
+\pgfnodepartninebox=\box88
+\pgfnodeparteightbox=\box89
+\pgfnodepartsevenbox=\box90
+\pgfnodepartsixbox=\box91
+\pgfnodepartfivebox=\box92
 )))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibraryshapes.gates.logic.US.code.tex"
@@ -1357,11 +1666,16 @@ r/tikz/libraries\tikzlibraryintersections.code.tex"
 flibraryintersections.code.tex"
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryfpu.code.tex")
-\pgf@intersect@solutions=\count462
+\pgf@intersect@solutions=\count459
 ))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 11
+2.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txr.fd"
+File: t1txr.fd 2000/12/15 v3.1
+))
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.
 sty"
 Package: placeins 2005/04/18  v 2.2
@@ -1369,8 +1683,8 @@ Package: placeins 2005/04/18  v 2.2
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
 .sty"
 Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
-\c@subfigure=\count463
-\c@subtable=\count464
+\c@subfigure=\count460
+\c@subtable=\count461
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
 sty"
@@ -1378,25 +1692,25 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 sty"
-\lst@mode=\count465
-\lst@gtempboxa=\box87
-\lst@token=\toks54
-\lst@length=\count466
-\lst@currlwidth=\dimen307
-\lst@column=\count467
-\lst@pos=\count468
-\lst@lostspace=\dimen308
-\lst@width=\dimen309
-\lst@newlines=\count469
-\lst@lineno=\count470
-\lst@maxwidth=\dimen310
+\lst@mode=\count462
+\lst@gtempboxa=\box93
+\lst@token=\toks56
+\lst@length=\count463
+\lst@currlwidth=\dimen312
+\lst@column=\count464
+\lst@pos=\count465
+\lst@lostspace=\dimen313
+\lst@width=\dimen314
+\lst@newlines=\count466
+\lst@lineno=\count467
+\lst@maxwidth=\dimen315
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count471
-\lst@skipnumbers=\count472
-\lst@framebox=\box88
+\c@lstnumber=\count468
+\lst@skipnumbers=\count469
+\lst@framebox=\box94
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 cfg"
@@ -1416,17 +1730,31 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 sty"
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
-\c@NumberOfAuthors=\count473
-\c@NumberOfSuperscripts=\count474
-\c@NumberOfAffiliations=\count475
-\@quotelevel=\count476
-\@quotereset=\count477
- (laplace_local_fit.aux)
-\openout1 = `laplace_local_fit.aux'.
+\c@NumberOfAuthors=\count470
+\c@NumberOfSuperscripts=\count471
+\c@NumberOfAffiliations=\count472
+\@quotelevel=\count473
+\@quotereset=\count474
+ (laplace_local_fit_fancy.aux)
+\openout1 = `laplace_local_fit_fancy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 120.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+120.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omltxmi.fd
+"
+File: omltxmi.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 120.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+120.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omstxsy.fd
+"
+File: omstxsy.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
@@ -1434,9 +1762,22 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+120.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\omxtxex.fd
+"
+File: omxtxex.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 120.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
+20.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
@@ -1448,30 +1789,30 @@ LaTeX Font Info:    ... okay on input line 120.
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
-* \headheight=15.2pt
-* \headsep=25.0pt
+* \textwidth=501.55397pt
+* \textheight=643.20255pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-19.8738pt
+* \headheight=13.4457pt
+* \headsep=13.72546pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=95.0pt
 * \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \columnsep=18.06749pt
+* \skip\footins=10.0pt plus 5.0pt minus 3.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1479,17 +1820,17 @@ LaTeX Font Info:    ... okay on input line 120.
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count478
-\scratchdimen=\dimen311
-\scratchbox=\box89
-\nofMPsegments=\count479
-\nofMParguments=\count480
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count481
-\MPscratchDim=\dimen312
-\MPnumerator=\count482
-\makeMPintoPDFobject=\count483
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count475
+\scratchdimen=\dimen316
+\scratchbox=\box95
+\nofMPsegments=\count476
+\nofMParguments=\count477
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count478
+\MPscratchDim=\dimen317
+\MPnumerator=\count479
+\makeMPintoPDFobject=\count480
+\everyMPtoPDFconversion=\toks58
 )
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty"
@@ -1497,7 +1838,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box90
+\AtBeginShipoutBox=\box96
 Package hyperref Info: Link coloring OFF on input line 120.
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
@@ -1512,14 +1853,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count484
+\c@section@level=\count481
 )
 LaTeX Info: Redefining \ref on input line 120.
 LaTeX Info: Redefining \pageref on input line 120.
 LaTeX Info: Redefining \nameref on input line 120.
- (laplace_local_fit.out) (laplace_local_fit.out)
-\@outlinefile=\write7
-\openout7 = `laplace_local_fit.out'.
+ (laplace_local_fit_fancy.out) (laplace_local_fit_fancy.out)
+\@outlinefile=\write5
+\openout5 = `laplace_local_fit_fancy.out'.
 
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apa7/config\APA7am
@@ -1532,13 +1873,6 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-
-Package todonotes Warning: The length marginparwidth is less than 2cm and will 
-most likely cause issues with the appearance of inserted todonotes. The issue c
-an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 120.
-
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
@@ -1574,143 +1908,168 @@ File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout6 = `laplace_local_fit.bcf'.
+\openout4 = `laplace_local_fit_fancy.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'laplace_local_fit.bbl' found.
- (laplace_local_fit.bbl)
+Package biblatex Info: ... file 'laplace_local_fit_fancy.bbl' found.
+ (laplace_local_fit_fancy.bbl)
 Package biblatex Info: Reference section=0 on input line 120.
 Package biblatex Info: Reference segment=0 on input line 120.
-\c@lstlisting=\count485
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+\c@lstlisting=\count482
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
 22.
 
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
 )
-[1{C:/Users/noahp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-] [2]
-[3] [4]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-74.
-
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
+22.
+ ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxmia.fd
+"
+File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-74.
-
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-174.
-
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-174.
-
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 174.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 174.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 174.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 174
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122
 .
 
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 174
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122
 .
 ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 17
-4.
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ulasy.fd"
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
+22.
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\utxsyc.fd"
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
+2.
+ ("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-[5] [6] [7] [8] [9]
-<fig/sim_factor_structure_values.pdf, id=187, 299.07936pt x 321.736pt>
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
+22.
+
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txtt.fd"
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/noahp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 162.
+ [2]
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/txr/b/it' in size <12> not available
+(Font)              Font shape `T1/txr/bx/it' tried instead on input line 192.
+ [3]
+Overfull \hbox (70.67967pt too wide) detected at line 232
+\OML/txmi/m/it/12  [] \OMS/txsy/m/n/12 / \OML/txmi/m/it/12 ` [] \OMS/txsy/m/n/
+12  \OML/txmi/m/it/12  [] ;
+ []
+
+
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+
+Overfull \hbox (9.90787pt too wide) detected at line 238
+[]
+ []
+
+
+Overfull \hbox (40.24115pt too wide) detected at line 251
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+<fig/sim_factor_structure_values.pdf, id=152, 299.07936pt x 321.736pt>
 File: fig/sim_factor_structure_values.pdf Graphic file (type pdf)
 <use fig/sim_factor_structure_values.pdf>
 Package pdftex.def Info: fig/sim_factor_structure_values.pdf  used on input lin
 e 285.
-(pdftex.def)             Requested size: 234.8775pt x 252.6664pt.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+(pdftex.def)             Requested size: 225.69775pt x 242.79382pt.
+LaTeX Font Info:    Trying to load font information for T1+txss on input line 2
 89.
 
-("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+("C:\Users\noahp\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txss.fd"
+File: t1txss.fd 2000/12/15 v3.1
 )
-[10] [11 <./fig/sim_factor_structure_values.pdf>]
-<fig/sampling_dist.pdf, id=227, 505.89pt x 252.945pt>
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 289.
+ [5 <./fig/sim_factor_structure_values.pdf>]
+<fig/sampling_dist.pdf, id=187, 505.89pt x 252.945pt>
 File: fig/sampling_dist.pdf Graphic file (type pdf)
 <use fig/sampling_dist.pdf>
-Package pdftex.def Info: fig/sampling_dist.pdf  used on input line 340.
-(pdftex.def)             Requested size: 422.77664pt x 211.39165pt.
- [12]
+Package pdftex.def Info: fig/sampling_dist.pdf  used on input line 332.
+(pdftex.def)             Requested size: 451.39551pt x 225.70314pt.
+
 
 Package biblatex Warning: Package option 'sortcites' enabled.
-(biblatex)                Verify postnote placement on input line 362.
+(biblatex)                Verify postnote placement on input line 354.
 
-[13 <./fig/sampling_dist.pdf>] [14] [15
-
-] [16] [17]
-AED endfloat: Processing end Figures and Tables [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
- (laplace_local_fit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
-Package rerunfilecheck Info: File `laplace_local_fit.out' has not changed.
-(rerunfilecheck)             Checksum: E715FE6B581765AEC135E4CD06456E52;708.
-Package logreq Info: Writing requests to 'laplace_local_fit.run.xml'.
-\openout1 = `laplace_local_fit.run.xml'.
+[6] [7 <./fig/sampling_dist.pdf>] [8]
+- LAST -
+Extra skip:0.0pt
+Left:643.20255pt/0.0pt
+Right:643.20255pt/0.0pt
+Output:643.20255pt
+ [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+ (laplace_local_fit_fancy.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package rerunfilecheck Info: File `laplace_local_fit_fancy.out' has not changed
+.
+(rerunfilecheck)             Checksum: A7715705C86B0942A95EE3DE997976A8;520.
+Package logreq Info: Writing requests to 'laplace_local_fit_fancy.run.xml'.
+\openout1 = `laplace_local_fit_fancy.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34535 strings out of 481199
- 692601 string characters out of 2903687
- 1452542 words of memory out of 3000000
- 49390 multiletter control sequences out of 15000+200000
- 583964 words of font info for 67 fonts, out of 3000000 for 9000
+ 34995 strings out of 481199
+ 697897 string characters out of 2903687
+ 1467408 words of memory out of 3000000
+ 49830 multiletter control sequences out of 15000+200000
+ 585829 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,101p,1429b,4930s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
-c}{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
-c}{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
-x.enc}{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
-athit.enc}{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-mathsy.enc}<C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/noahp/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/noahp/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/noahp/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/noahp/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/noahp/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/no
-ahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users
-/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Us
-ers/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:
-/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><
-C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.p
-fb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri
-12.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
-lmss12.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmsy10.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmtt12.pfb>
-Output written on laplace_local_fit.pdf (18 pages, 346467 bytes).
+ 68i,10n,101p,1435b,4930s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/noahp/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/noahp/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/noahp/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/noahp/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/no
+ahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/U
+sers/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pf
+b><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vr8a.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
+s/utmb8a.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+times/utmbi8a.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/times/utmr8a.pfb><C:/Users/noahp/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on laplace_local_fit_fancy.pdf (9 pages, 198019 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

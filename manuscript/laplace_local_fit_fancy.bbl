@@ -1,0 +1,1542 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Benson1998}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4cf9bb50354b38724c3d73a4d2a752e1}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={Jeri},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=249419af7f2ad51c97ac4526c505317f}{%
+           family={Nasser},
+           familyi={N\bibinitperiod},
+           given={Fadia},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4e0145fb21102935f0616b795b5f228}
+      \strng{fullhash}{d4e0145fb21102935f0616b795b5f228}
+      \strng{bibnamehash}{d4e0145fb21102935f0616b795b5f228}
+      \strng{authorbibnamehash}{d4e0145fb21102935f0616b795b5f228}
+      \strng{authornamehash}{d4e0145fb21102935f0616b795b5f228}
+      \strng{authorfullhash}{d4e0145fb21102935f0616b795b5f228}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Discusses the conceptual/theoretical design, statistical, and reporting issues in choosing factor analysis for research. Provides questions to consider when planning, analyzing, or reporting an exploratory factor analysis study. (SK)}
+      \field{isbn}{0739-3369}
+      \field{journaltitle}{Journal of Vocational Education Research}
+      \field{number}{1}
+      \field{title}{{On the Use of Factor Analysis as a Research Tool}}
+      \field{volume}{23}
+      \field{year}{1998}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Benson, Nasser - 1998 - On the Use of Factor Analysis as a Research Tool.pdf:pdf
+      \endverb
+      \keyw{Educational Research,Factor Analysis,Research Methodology,Statistics}
+    \endentry
+    \entry{Bentler1990}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdd9d1aea9d0ab7fb1f144c7aa52cd4c}{%
+           family={Bentler},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{fullhash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{bibnamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authorbibnamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authornamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authorfullhash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{107(2), 238-246}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{{Comparative fit indexes in structural models.}}
+      \field{volume}{107}
+      \field{year}{1990}
+      \field{pages}{238\bibrangedash 246}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1037/0033-2909.107.2.238
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bentler - 1990 - Comparative fit indexes in structural models.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bentler1995}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdd9d1aea9d0ab7fb1f144c7aa52cd4c}{%
+           family={Bentler},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Encino, CA}%
+      }
+      \list{publisher}{1}{%
+        {Multivariate Software}%
+      }
+      \strng{namehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{fullhash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{bibnamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authorbibnamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authornamehash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \strng{authorfullhash}{bdd9d1aea9d0ab7fb1f144c7aa52cd4c}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bentler, P. M. (1995). EQS structural equations program manual. Encino, CA: Multivariate Software}
+      \field{title}{{EQS structural equations program manual}}
+      \field{year}{1995}
+    \endentry
+    \entry{Bollen1995}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db57a25ea95255931917e96189ef88bb}{%
+           family={Bollen},
+           familyi={B\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{fullhash}{db57a25ea95255931917e96189ef88bb}
+      \strng{bibnamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authorbibnamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authornamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authorfullhash}{db57a25ea95255931917e96189ef88bb}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Busemeyer and Jones (1983) and Kenny and Judd (1984) pro- posed methods to include interactions of latent variables in structural equation models (SEMs). Despite the value of these works, their methods are limited by the required distributional assumptions, by their complexity in implementation, and by the unknown distributions of the estimators. This paper pro- vides a framework for analyzing SEMs ("LISREL" models) that include nonlinear functions of latent or a mix of latent and observed variables in their equations. It permits such nonlinear functions in equations that are part of latent variable models or measurement models. I estimate the coefficient parameters with a two-stage least squares estimator that is consistent and asymp- totically normal with a known asymptotic covariance matrix. The observed random variables can come from nonnormal distributions. Several hypothetical cases and an empirical exam- ple illustrate the method}
+      \field{issn}{00811750}
+      \field{journaltitle}{Sociological Methodology}
+      \field{title}{{Structural equation models that are nonlinear in latent variables: A least-squares estimator}}
+      \field{volume}{25}
+      \field{year}{1995}
+      \field{pages}{223}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/271068
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/Dropbox/Papers/Bollen 1995 SEM with nonlinear equations 2sls approach.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bollen2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db57a25ea95255931917e96189ef88bb}{%
+           family={Bollen},
+           familyi={B\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{fullhash}{db57a25ea95255931917e96189ef88bb}
+      \strng{bibnamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authorbibnamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authornamehash}{db57a25ea95255931917e96189ef88bb}
+      \strng{authorfullhash}{db57a25ea95255931917e96189ef88bb}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00273171}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{number}{1}
+      \field{title}{{Model Implied Instrumental Variables (MIIVs): An Alternative Orientation to Structural Equation Modeling}}
+      \field{volume}{54}
+      \field{year}{2019}
+      \field{pages}{31\bibrangedash 46}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/00273171.2018.1483224
+      \endverb
+    \endentry
+    \entry{Browne1992}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3e08ebdfc7ca2904ab3b91debce95795}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=650ff50988aef5821588074f422e0964}{%
+           family={Cudeck},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \strng{fullhash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \strng{bibnamehash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \strng{authorbibnamehash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \strng{authornamehash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \strng{authorfullhash}{929e6a06a7c8a2c08c2eb61a3a8c7fd0}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article is concerned with measures of fit of a model. Two types of error involved in fitting a model are considered. The first is error of approximation which involves the fit of the model, with optimally chosen but unknown parameter values, to the population covariance matrix. The second is overall error which involves the fit of the model, with parameter values estimated from the sample, to the population covariance matrix. Measures of the two types of error are proposed and point and interval estimates of the measures are suggested. These measures take the number of parameters in the model into account in order to avoid penalizing parsimonious models. Practical difficulties associated with the usual tests of exact fit or a model are discussed and a test of “close fit” of a model is suggested. {©} 1992, SAGE PERIODICALS PRESS. All rights reserved.}
+      \field{issn}{15528294}
+      \field{journaltitle}{Sociological Methods {\&} Research}
+      \field{number}{2}
+      \field{title}{{Alternative Ways of Assessing Model Fit}}
+      \field{volume}{21}
+      \field{year}{1992}
+      \field{pages}{230\bibrangedash 258}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1177/0049124192021002005
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/Dropbox/Papers/Browne {\&} Cudeck 1992 rmsea.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Buse1982}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=91e492dab12d6ef8fd046b332c2e9699}{%
+           family={Buse},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{91e492dab12d6ef8fd046b332c2e9699}
+      \strng{fullhash}{91e492dab12d6ef8fd046b332c2e9699}
+      \strng{bibnamehash}{91e492dab12d6ef8fd046b332c2e9699}
+      \strng{authorbibnamehash}{91e492dab12d6ef8fd046b332c2e9699}
+      \strng{authornamehash}{91e492dab12d6ef8fd046b332c2e9699}
+      \strng{authorfullhash}{91e492dab12d6ef8fd046b332c2e9699}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract By means of simple diagrams this note gives an intuitive account of the likelihood ratio, the Lagrange multiplier, and Wald test procedures. It is also demonstrated that if the log-likelihood function is quadratic then the three test statistics are numerically identical and have $\chi$2 distributions for all sample sizes under the null hypothesis.}
+      \field{issn}{0003-1305}
+      \field{journaltitle}{The American Statistician}
+      \field{month}{8}
+      \field{number}{3a}
+      \field{title}{{The Likelihood Ratio, Wald, and Lagrange Multiplier Tests: An Expository Note}}
+      \field{volume}{36}
+      \field{year}{1982}
+      \field{pages}{153\bibrangedash 157}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/00031305.1982.10482817
+      \endverb
+    \endentry
+    \entry{Stan}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=5321a7ac2b0407bc405fa8816fd73f09}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=937991c72400f4d0e0252027c8c03f67}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb04571d965766ee6d71dafbd3eb452e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cc812cde8c441e79dfaab4955a72c2c}{%
+           family={Goodrich},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1982fa604a3f94837efceaa53330b2a4}{%
+           family={Betancourt},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13e542215366001a04c3d21163d79458}{%
+           family={Brubaker},
+           familyi={B\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41eee90a96d38ce11a198e6c0aeb415f}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jiqiang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=137297e0019ba55bca6f9b200782ae52}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f0d8885ad4c012b0ced0ee95cdf2729}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{fullhash}{29572594759b21c576aa9533a18a00d1}
+      \strng{bibnamehash}{29572594759b21c576aa9533a18a00d1}
+      \strng{authorbibnamehash}{29572594759b21c576aa9533a18a00d1}
+      \strng{authornamehash}{315a7c9e1cdeecc523de3b4d0e029d66}
+      \strng{authorfullhash}{29572594759b21c576aa9533a18a00d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of statistical software}
+      \field{number}{1}
+      \field{title}{Stan: A probabilistic programming language}
+      \field{volume}{76}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.18637/jss.v076.i01
+      \endverb
+    \endentry
+    \entry{Chou1990}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4571de6ff529e69a4468f78aa2326140}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Chih\bibnamedelima Ping},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c3f66e75e5d0ea502af0454ed934fab}{%
+           family={Bentler},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8090803968baef17a44a369e7fbc7633}
+      \strng{fullhash}{8090803968baef17a44a369e7fbc7633}
+      \strng{bibnamehash}{8090803968baef17a44a369e7fbc7633}
+      \strng{authorbibnamehash}{8090803968baef17a44a369e7fbc7633}
+      \strng{authornamehash}{8090803968baef17a44a369e7fbc7633}
+      \strng{authorfullhash}{8090803968baef17a44a369e7fbc7633}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Model comparisons in covariance structure modeling have traditionally been carried out by the likelihood ratio difference (D) test. Two more convenient approaches are reviewed and evaluated. The Lagrange Multiplier (LM) test evaluates the impact of model modification from a more limited model whereas the Wald (W) test makes the evaluation from a more general model. The empirical performance of the D, LM, and W tests under null and alternative hypotheses are compared in this study. The results indicate that both new tests performed as well as the D test for reasonable sample sizes. The nonmonotonicity of power function for the W test was discovered; however, it is not severe in this study. The LM test behaved as a central or noncentral $\chi$2 variate under null or alternative hypotheses, as expected. However, when a correct null hypothesis was embedded in a composite hypothesis which was false, an incremental LM test tended to suggest more parameters than needed to be freed, especially at larger sample sizes. This incorrect behavior of the LM test was correctable by following up the LM test by a W test, that is, a combination of both LM and W tests seemed to provide a fairly satisfactory outcome in the process of model modification. {©} 1990, Taylor {\&} Francis Group, LLC. All rights reserved.}
+      \field{issn}{15327906}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Model Modification in Covariance Structure Modeling: A Comparison among Likelihood Ratio, Lagrange Multiplier, and Wald Tests}}
+      \field{volume}{25}
+      \field{year}{1990}
+      \field{pages}{115\bibrangedash 136}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1207/s15327906mbr2501_13
+      \endverb
+    \endentry
+    \entry{deFinetti1974}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80d5c395aff3dbabd8ed16ddf82130fd}{%
+           family={{de Finetti}},
+           familyi={d\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New Yory, NY}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \strng{fullhash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \strng{bibnamehash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \strng{authorbibnamehash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \strng{authornamehash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \strng{authorfullhash}{80d5c395aff3dbabd8ed16ddf82130fd}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theory of Probability, Violumne 1}
+      \field{year}{1974}
+    \endentry
+    \entry{DBA3}{book}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f088783ee75f9f0908eeb4fa9571a31}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd9cbf9e3046ffa6a7cecf24e1a46b03}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Hal\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84545b54e408a7eba6bf9280fd2eaae7}{%
+           family={Dunson},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d36e97683cbc9d6ef06fc2ec40becb0}{%
+           family={Vehtari},
+           familyi={V\bibinitperiod},
+           given={Aki},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{fullhash}{5c09c13430845c0df008aa82cfeb78ef}
+      \strng{bibnamehash}{5c09c13430845c0df008aa82cfeb78ef}
+      \strng{authorbibnamehash}{5c09c13430845c0df008aa82cfeb78ef}
+      \strng{authornamehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{authorfullhash}{5c09c13430845c0df008aa82cfeb78ef}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{isbn}{1439840954}
+      \field{title}{{Bayesian data analysis}}
+      \field{year}{2013}
+      \field{pages}{318}
+      \range{pages}{1}
+    \endentry
+    \entry{Gelman1996}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81d6dc168ff2cfb0d65c57df39fff640}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Xiao\bibnamedelima Li},
+           giveni={X\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=933c8ba3d8b6c1fb6a5269a8476355ca}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Hal},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{fullhash}{ebbbc0ffdb89afd428ea440fe02968a0}
+      \strng{bibnamehash}{ebbbc0ffdb89afd428ea440fe02968a0}
+      \strng{authorbibnamehash}{ebbbc0ffdb89afd428ea440fe02968a0}
+      \strng{authornamehash}{7b511f44eded88e08c98470ecd75568d}
+      \strng{authorfullhash}{ebbbc0ffdb89afd428ea440fe02968a0}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistica Sinica}
+      \field{number}{4}
+      \field{title}{{Posterior predictive assessment of model fitness via realized discrepancies}}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{pages}{733\bibrangedash 807}
+      \range{pages}{75}
+    \endentry
+    \entry{Joreskog1981}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1f1aee4354599dea3ab95ecf7f798510}{%
+           family={Jöreskog},
+           familyi={J\bibinitperiod},
+           given={Karl\bibnamedelima G},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=463a08d46cc2d6d23320992a86defc0f}{%
+           family={Sörbom},
+           familyi={S\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago, IL}%
+      }
+      \list{publisher}{1}{%
+        {National Educational Resources}%
+      }
+      \strng{namehash}{658394dc3f7d85d745feadfff1091d92}
+      \strng{fullhash}{658394dc3f7d85d745feadfff1091d92}
+      \strng{bibnamehash}{658394dc3f7d85d745feadfff1091d92}
+      \strng{authorbibnamehash}{658394dc3f7d85d745feadfff1091d92}
+      \strng{authornamehash}{658394dc3f7d85d745feadfff1091d92}
+      \strng{authorfullhash}{658394dc3f7d85d745feadfff1091d92}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Jöreskog, K. G., {\&} Sörbom, D. (1981). USREL V: Analysis of linear structural relationships by the method of maximum likelihood. Chicago: National Educational Resources.}
+      \field{title}{{LISREL V: Analysis of linear structural relationships by the method of maximum likelihood}}
+      \field{year}{1981}
+    \endentry
+    \entry{Kaplan1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9aa60a0635fc104c28dda319ab8cca3d}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \strng{fullhash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \strng{bibnamehash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \strng{authorbibnamehash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \strng{authornamehash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \strng{authorfullhash}{9aa60a0635fc104c28dda319ab8cca3d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper examines the problem of model modification in covariance structure analysis. Two methods of model modification are studied: the Modification Index (MI) which suggests modifications based on the largest drop in the overall value of the test statistic, and the Expected Parameter Change Statistic (EPC) which suggests modifications based on the removal of large and interesting specifications errors. Following a detailed discussion of the theory behind the MI and EPC, these methods are studied and applied to two specifications of the Wisconsin status attainment model. Additionally, a standardized version of the EPC statistic (SEPC) is proposed and applied to one of these models. Results indicate that the MI tends to suggest freeing substantively implausible parameters. The EPC and SEPC, by contrast, suggest freeing substantively interesting parameters. Results are discussed in terms of the practice of covariance structure modeling. {©} 1989, Taylor {\&} Francis Group, LLC. All rights reserved.}
+      \field{issn}{15327906}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{Model Modification in Covariance Structure Analysis: Application of the Expected Parameter Change Statistic}}
+      \field{volume}{24}
+      \field{year}{1989}
+      \field{pages}{285\bibrangedash 305}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1207/s15327906mbr2403_2
+      \endverb
+    \endentry
+    \entry{Kass1989}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f4b02af438fca3cda11ad52753b72293}{%
+           family={Kass},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b7d43c5847b99ea7da1727ff672acac}{%
+           family={Steffey},
+           familyi={S\bibinitperiod},
+           given={Duane},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4046d43cce96c9d175d3bb11a2348dda}
+      \strng{fullhash}{4046d43cce96c9d175d3bb11a2348dda}
+      \strng{bibnamehash}{4046d43cce96c9d175d3bb11a2348dda}
+      \strng{authorbibnamehash}{4046d43cce96c9d175d3bb11a2348dda}
+      \strng{authornamehash}{4046d43cce96c9d175d3bb11a2348dda}
+      \strng{authorfullhash}{4046d43cce96c9d175d3bb11a2348dda}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{407}
+      \field{title}{{Approximate bayesian inference in conditionally independent hierarchical models (Parametric empirical bayes models)}}
+      \field{volume}{84}
+      \field{year}{1989}
+      \field{pages}{717\bibrangedash 726}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/01621459.1989.10478825
+      \endverb
+    \endentry
+    \entry{Kline2015}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29665f3afe5de3aa56cc444c11b5fd6a}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Rex\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {The Guilford Press}%
+      }
+      \strng{namehash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \strng{fullhash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \strng{bibnamehash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \strng{authorbibnamehash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \strng{authornamehash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \strng{authorfullhash}{29665f3afe5de3aa56cc444c11b5fd6a}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Fourth}
+      \field{isbn}{9781462523344}
+      \field{month}{1}
+      \field{series}{Methodology in the social sciences.}
+      \field{title}{{Principles and practice of structural equation modeling}}
+      \field{year}{2015}
+    \endentry
+    \entry{Lee2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c6083e59c031dfe3461a8d5c6e412269}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Taehun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27fb245da036bfc508272165d5fb56be}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01a7d90153daa6014f9299517c1c4f30}{%
+           family={Kuhfeld},
+           familyi={K\bibinitperiod},
+           given={Megan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e592814c97bfcffdbfd69df3d35fc4c9}
+      \strng{fullhash}{b8b0286c25c80b303d0eb03b936abacd}
+      \strng{bibnamehash}{b8b0286c25c80b303d0eb03b936abacd}
+      \strng{authorbibnamehash}{b8b0286c25c80b303d0eb03b936abacd}
+      \strng{authornamehash}{e592814c97bfcffdbfd69df3d35fc4c9}
+      \strng{authorfullhash}{b8b0286c25c80b303d0eb03b936abacd}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15328007}
+      \field{journaltitle}{Structural Equation Modeling}
+      \field{number}{2}
+      \field{title}{{A poor person's posterior predictive checking of structural equation models}}
+      \field{volume}{23}
+      \field{year}{2016}
+      \field{pages}{206\bibrangedash 220}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1080/10705511.2015.1014041
+      \endverb
+    \endentry
+    \entry{Levy2016}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7762af597023209d02c37b7cc9ed04dc}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2221e65c1b6ae8357aa55b4682e2f0fe}{%
+           family={Mislevy},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{9b404a221c190d8a8517d8ec4751eede}
+      \strng{fullhash}{9b404a221c190d8a8517d8ec4751eede}
+      \strng{bibnamehash}{9b404a221c190d8a8517d8ec4751eede}
+      \strng{authorbibnamehash}{9b404a221c190d8a8517d8ec4751eede}
+      \strng{authornamehash}{9b404a221c190d8a8517d8ec4751eede}
+      \strng{authorfullhash}{9b404a221c190d8a8517d8ec4751eede}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Psychometric Modeling}
+      \field{year}{2016}
+    \endentry
+    \entry{Li1992}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5eb4c3e75d14d3af4ceb7f957e07f41c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \strng{fullhash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \strng{bibnamehash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \strng{authorbibnamehash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \strng{authornamehash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \strng{authorfullhash}{5eb4c3e75d14d3af4ceb7f957e07f41c}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{2}
+      \field{title}{{Laplace expansion for posterior densities of nonlinear functions of parameters}}
+      \field{volume}{79}
+      \field{year}{1992}
+      \field{pages}{393\bibrangedash 401}
+      \range{pages}{9}
+    \endentry
+    \entry{Maydeu2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1864bed0dc1578554f7d6a9aaf4eb6b0}{%
+           family={Maydeu-Olivares},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94558a4f8a22da8960c6189351038fbe}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Dexin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Hogrefe Publishing}%
+      }
+      \strng{namehash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \strng{fullhash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \strng{bibnamehash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \strng{authorbibnamehash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \strng{authornamehash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \strng{authorfullhash}{6a5efdb8ce6fedfaa6f6208197d5f177}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methodology}
+      \field{number}{Supplement 1}
+      \field{title}{{Effect sizes of model misfit in structural equation models: Standardized residual covariances and residual correlations}}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{23\bibrangedash 30}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1027/1614-2241/a000129
+      \endverb
+    \endentry
+    \entry{Maydeu2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1864bed0dc1578554f7d6a9aaf4eb6b0}{%
+           family={Maydeu-Olivares},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94558a4f8a22da8960c6189351038fbe}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Dexin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a34053cb630f7c9a175d78ae0b43d43}{%
+           family={Rosseel},
+           familyi={R\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{777adff4a3e141953647f184a327f1bf}
+      \strng{fullhash}{fa2a3f20e011d6b5e179ef7f082de56d}
+      \strng{bibnamehash}{fa2a3f20e011d6b5e179ef7f082de56d}
+      \strng{authorbibnamehash}{fa2a3f20e011d6b5e179ef7f082de56d}
+      \strng{authornamehash}{777adff4a3e141953647f184a327f1bf}
+      \strng{authorfullhash}{fa2a3f20e011d6b5e179ef7f082de56d}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We compare the accuracy of confidence intervals (CIs) and tests of close fit based on the root mean square error of approximation (RMSEA) with those based on the standardized root mean square residual (SRMR). Investigations used normal and nonnormal data with models ranging from p = 10 to 60 observed variables. CIs and tests of close fit based on the SRMR are generally accurate across all conditions (even at p = 60 with nonnormal data). In contrast, CIs and tests of close fit based on the RMSEA are only accurate in small models. In larger models (p ≥ 30), they incorrectly suggest that models do not fit closely, particularly if sample size is less than 500.}
+      \field{issn}{15328007}
+      \field{journaltitle}{Structural Equation Modeling}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Assessing Fit in Structural Equation Models: A Monte-Carlo Evaluation of RMSEA Versus SRMR Confidence Intervals and Tests of Close Fit}}
+      \field{volume}{25}
+      \field{year}{2018}
+      \field{pages}{389\bibrangedash 402}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/10705511.2017.1389611
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Maydeu-Olivares, Shi, Rosseel - 2017 - Structural Equation Modeling A Multidisciplinary Journal Assessing Fit in Structural Equation Mod.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/action/journalInformation?journalCode=hsem20
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/action/journalInformation?journalCode=hsem20
+      \endverb
+      \keyw{goodness-of-fit indexes,model selection}
+    \endentry
+    \entry{blavaan}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=01403a2f502c0cc8065ef8b146c0e565}{%
+           family={Merkle},
+           familyi={M\bibinitperiod},
+           given={Edgar\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a34053cb630f7c9a175d78ae0b43d43}{%
+           family={Rosseel},
+           familyi={R\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19adb1910b5cd57d861144b446e7fe6e}
+      \strng{fullhash}{19adb1910b5cd57d861144b446e7fe6e}
+      \strng{bibnamehash}{19adb1910b5cd57d861144b446e7fe6e}
+      \strng{authorbibnamehash}{19adb1910b5cd57d861144b446e7fe6e}
+      \strng{authornamehash}{19adb1910b5cd57d861144b446e7fe6e}
+      \strng{authorfullhash}{19adb1910b5cd57d861144b446e7fe6e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{4}
+      \field{title}{{blavaan}: Bayesian Structural Equation Models via Parameter Expansion}
+      \field{volume}{85}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 30}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.18637/jss.v085.i04
+      \endverb
+    \endentry
+    \entry{Mplus}{book}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=906ac9df01097ca9cd4e298807fa1435}{%
+           family={Muthén},
+           familyi={M\bibinitperiod},
+           given={L.K.},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=2d9cd69a5c48793763803ba2bbde7603}{%
+           family={Muthén},
+           familyi={M\bibinitperiod},
+           given={B.O.},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles, CA}%
+      }
+      \list{publisher}{1}{%
+        {Muthén {\&} Muthén}%
+      }
+      \strng{namehash}{af834eb0c390cb78842e9d84c27bf04f}
+      \strng{fullhash}{af834eb0c390cb78842e9d84c27bf04f}
+      \strng{bibnamehash}{af834eb0c390cb78842e9d84c27bf04f}
+      \strng{authorbibnamehash}{af834eb0c390cb78842e9d84c27bf04f}
+      \strng{authornamehash}{af834eb0c390cb78842e9d84c27bf04f}
+      \strng{authorfullhash}{af834eb0c390cb78842e9d84c27bf04f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8th}
+      \field{title}{{Mplus User's Guide}}
+      \field{year}{2017}
+    \endentry
+    \entry{Neyman1928}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0e81e771c5dc83f5c14479e1c78247a2}{%
+           family={Neyman},
+           familyi={N\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc832f60b3c85c9f5572caf24a7301e6}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9fb1195bf82ad3089d144ad063efbab7}
+      \strng{fullhash}{9fb1195bf82ad3089d144ad063efbab7}
+      \strng{bibnamehash}{9fb1195bf82ad3089d144ad063efbab7}
+      \strng{authorbibnamehash}{9fb1195bf82ad3089d144ad063efbab7}
+      \strng{authornamehash}{9fb1195bf82ad3089d144ad063efbab7}
+      \strng{authorfullhash}{9fb1195bf82ad3089d144ad063efbab7}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accessed: 13-02-2017 16:05 UTC JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about}
+      \field{issn}{00063444}
+      \field{journaltitle}{Biometrika}
+      \field{number}{3/4}
+      \field{title}{{On the use and interpretation of certain test criteria for purposes of statistical inference}}
+      \field{volume}{20}
+      \field{year}{1928}
+      \field{pages}{175\bibrangedash 240\bibrangessep 263\bibrangedash 294}
+      \range{pages}{98}
+      \verb{doi}
+      \verb 10.2307/2332112
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2331945
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2331945
+      \endverb
+    \endentry
+    \entry{jags}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03045332bafe41c19537db736466eb0f}{%
+           family={Plummer},
+           familyi={P\bibinitperiod},
+           given={Martyn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Vienna, Austria}%
+      }
+      \strng{namehash}{7e52783c69c7714e52fa89649db6b621}
+      \strng{fullhash}{7e52783c69c7714e52fa89649db6b621}
+      \strng{bibnamehash}{7e52783c69c7714e52fa89649db6b621}
+      \strng{authorbibnamehash}{7e52783c69c7714e52fa89649db6b621}
+      \strng{authornamehash}{7e52783c69c7714e52fa89649db6b621}
+      \strng{authorfullhash}{7e52783c69c7714e52fa89649db6b621}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 3rd international workshop on distributed statistical computing}
+      \field{number}{125.10}
+      \field{title}{JAGS: A program for analysis of Bayesian graphical models using Gibbs sampling}
+      \field{volume}{124}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{Rosseel2012}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a34053cb630f7c9a175d78ae0b43d43}{%
+           family={Rosseel},
+           familyi={R\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \strng{fullhash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \strng{bibnamehash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \strng{authorbibnamehash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \strng{authornamehash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \strng{authorfullhash}{9a34053cb630f7c9a175d78ae0b43d43}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of statistical software}
+      \field{number}{2}
+      \field{title}{{Lavaan: An R package for structural equation modeling and more.}}
+      \field{volume}{48}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 36}
+      \range{pages}{36}
+    \endentry
+    \entry{Rubin1996}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49a367b6280de8a239f8bbdd573f996f}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{fullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{bibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorbibnamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authornamehash}{49a367b6280de8a239f8bbdd573f996f}
+      \strng{authorfullhash}{49a367b6280de8a239f8bbdd573f996f}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistica Sinica}
+      \field{number}{4}
+      \field{title}{{Comment: On posterior predictive p-values}}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{pages}{787\bibrangedash 792}
+      \range{pages}{6}
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rubin - 1996 - Institute of Statistical Science, Academia Sinica COMMENT ON POSTERIOR PREDICTIVE p-VALUES.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Rue2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e326a9db67a823211c2fdf9f542d0f34}{%
+           family={Rue},
+           familyi={R\bibinitperiod},
+           given={H{å}vard},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01741b7b26772172361e27e76a257154}{%
+           family={Martino},
+           familyi={M\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23c0c7d947415c68f4949167db1ca938}{%
+           family={Chopin},
+           familyi={C\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f985cf9547c84ea7ffa3c4c2a4ccd569}
+      \strng{fullhash}{12c8d2cfb350e53b3dbede43e957152e}
+      \strng{bibnamehash}{12c8d2cfb350e53b3dbede43e957152e}
+      \strng{authorbibnamehash}{12c8d2cfb350e53b3dbede43e957152e}
+      \strng{authornamehash}{f985cf9547c84ea7ffa3c4c2a4ccd569}
+      \strng{authorfullhash}{12c8d2cfb350e53b3dbede43e957152e}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society. Series B: Statistical Methodology}
+      \field{number}{2}
+      \field{title}{{Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations}}
+      \field{volume}{71}
+      \field{year}{2009}
+      \field{pages}{319\bibrangedash 392}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1111/j.1467-9868.2008.00700.x
+      \endverb
+    \endentry
+    \entry{Shi2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=94558a4f8a22da8960c6189351038fbe}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Dexin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41a37e73fb1bae185b279537faf289b6}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Hairong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdc66892360080c0f674e892feb34cf9}{%
+           family={DiStefano},
+           familyi={D\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1864bed0dc1578554f7d6a9aaf4eb6b0}{%
+           family={Maydeu-Olivares},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a02ec895f9f7d3a4d6497614ec4e5e7}{%
+           family={McDaniel},
+           familyi={M\bibinitperiod},
+           given={Heather\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4aace50234b4e7078ddfdd7b10c0c8ce}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Zhehan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{98eef84e24338c11fb23e99dc0f666ce}
+      \strng{fullhash}{b3556f00a67ba2a90535b0e9d6d17f41}
+      \strng{bibnamehash}{b3556f00a67ba2a90535b0e9d6d17f41}
+      \strng{authorbibnamehash}{b3556f00a67ba2a90535b0e9d6d17f41}
+      \strng{authornamehash}{98eef84e24338c11fb23e99dc0f666ce}
+      \strng{authorfullhash}{b3556f00a67ba2a90535b0e9d6d17f41}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, we introduce an interval estimation approach based on Bayesian structural equation modeling to evaluate factorial invariance. For each tested parameter, the size of noninvariance with an uncertainty interval (i.e. highest density interval [HDI]) is assessed via Bayesian parameter estimation. By comparing the most credible values (i.e. 95{\%} HDI) with a region of practical equivalence (ROPE), the Bayesian approach allows researchers to (1) support the null hypothesis of practical invariance, and (2) examine the practical importance of the noninvariant parameter. Compared to the traditional likelihood ratio test, simulation results suggested that the proposed Bayesian approach could offer additional insight into evaluating factorial invariance, thus, leading to more informative conclusions. We provide an empirical example to demonstrate the procedures necessary to implement the proposed method in applied research. The importance of and influences on the choice of an appropriate ROPE are discussed.}
+      \field{issn}{00273171}
+      \field{journaltitle}{Multivariate Behavioral Research}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Evaluating Factorial Invariance: An Interval Estimation Approach Using Bayesian Structural Equation Modeling}}
+      \field{volume}{54}
+      \field{year}{2019}
+      \field{pages}{224\bibrangedash 245}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/00273171.2018.1514484
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Shi et al. - 2019 - Evaluating Factorial Invariance An Interval Estimation Approach Using Bayesian Structural Equation Modeling.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00273171.2018.1514484
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00273171.2018.1514484
+      \endverb
+      \keyw{Bayesian SEM,factorial invariance,highest density interval,parameter estimation,region of practical equivalence}
+    \endentry
+    \entry{Sorbom1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=463a08d46cc2d6d23320992a86defc0f}{%
+           family={Sörbom},
+           familyi={S\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{463a08d46cc2d6d23320992a86defc0f}
+      \strng{fullhash}{463a08d46cc2d6d23320992a86defc0f}
+      \strng{bibnamehash}{463a08d46cc2d6d23320992a86defc0f}
+      \strng{authorbibnamehash}{463a08d46cc2d6d23320992a86defc0f}
+      \strng{authornamehash}{463a08d46cc2d6d23320992a86defc0f}
+      \strng{authorfullhash}{463a08d46cc2d6d23320992a86defc0f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An analysis of empirical data often leads to a rejection of a hypothesized model, even if the researcher has spent considerable efforts in including all available information in the formulation of the model. Thus, the researcher must reformulate the model in some way, but in most instances there is, at least theoretically, an overwhelming number of possible actions that could be taken. In this paper a "modification index" will be discussed which should serve as a guide in the search for a "better" model. In statistical terms, the index measures how much we will be able to reduce the discrepancy between model and data, as defined by a general fit function, when one parameter is added or freed or when one equality constraint is relaxed. The modification index discussed in this paper is an improvement of the one incorporated in the LISREL V computer program in that it takes into account changes in all the parameters of the model when one particular parameter is freed. {©} 1989 The Psychometric Society.}
+      \field{issn}{00333123}
+      \field{journaltitle}{Psychometrika}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{{Model modification}}
+      \field{volume}{54}
+      \field{year}{1989}
+      \field{pages}{371\bibrangedash 384}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/BF02294623
+      \endverb
+      \keyw{factor analysis,maximum likelihood estimation,model modification,step-wise regression,structural equation models}
+    \endentry
+    \entry{Steiger2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73f83cdb4b003ae66f2e533d0e8250ac}{%
+           family={Steiger},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \strng{fullhash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \strng{bibnamehash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \strng{authorbibnamehash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \strng{authornamehash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \strng{authorfullhash}{73f83cdb4b003ae66f2e533d0e8250ac}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01918869}
+      \field{journaltitle}{Personality and Individual Differences}
+      \field{number}{5}
+      \field{title}{{Understanding the limitations of global fit assessment in structural equation modeling}}
+      \field{volume}{42}
+      \field{year}{2007}
+      \field{pages}{893\bibrangedash 898}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.paid.2006.09.017
+      \endverb
+    \endentry
+    \entry{bugs}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=82b0e49922182ff7c23a213fab708796}{%
+           family={Surhone},
+           familyi={S\bibinitperiod},
+           given={Lambert\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b22fb260fa2f790706dd84943b3817}{%
+           family={Tennoe},
+           familyi={T\bibinitperiod},
+           given={Mariam\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a892c86fa2104f6d464427a0d017a6ab}{%
+           family={Henssonow},
+           familyi={H\bibinitperiod},
+           given={Susan\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Beau Bassin, MUS}%
+      }
+      \list{publisher}{1}{%
+        {Betascript Publishing}%
+      }
+      \strng{namehash}{57a834b1e015fadb7bc6433b3f8392c7}
+      \strng{fullhash}{f29a829d18094b6ec6d3e2e127c0460b}
+      \strng{bibnamehash}{f29a829d18094b6ec6d3e2e127c0460b}
+      \strng{authorbibnamehash}{f29a829d18094b6ec6d3e2e127c0460b}
+      \strng{authornamehash}{57a834b1e015fadb7bc6433b3f8392c7}
+      \strng{authorfullhash}{f29a829d18094b6ec6d3e2e127c0460b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{6133181206}
+      \field{title}{OpenBUGS}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.5555/1941071
+      \endverb
+    \endentry
+    \entry{Tierney1986}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f801b3457bf8c7e89de7c7e7128b8774}{%
+           family={Tierney},
+           familyi={T\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82673b04ef62d5a0bd9ce889abbb5ff7}{%
+           family={Kadane},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bed01aacef3cddbecd44a37926e8702}
+      \strng{fullhash}{1bed01aacef3cddbecd44a37926e8702}
+      \strng{bibnamehash}{1bed01aacef3cddbecd44a37926e8702}
+      \strng{authorbibnamehash}{1bed01aacef3cddbecd44a37926e8702}
+      \strng{authornamehash}{1bed01aacef3cddbecd44a37926e8702}
+      \strng{authorfullhash}{1bed01aacef3cddbecd44a37926e8702}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1537274X}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{393}
+      \field{title}{{Accurate approximations for posterior moments and marginal densities}}
+      \field{volume}{81}
+      \field{year}{1986}
+      \field{pages}{82\bibrangedash 86}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/01621459.1986.10478240
+      \endverb
+    \endentry
+    \entry{Wald1943}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b032e56ba5a956c54d709f1b0be78be6}{%
+           family={Wald},
+           familyi={W\bibinitperiod},
+           given={Abraham},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b032e56ba5a956c54d709f1b0be78be6}
+      \strng{fullhash}{b032e56ba5a956c54d709f1b0be78be6}
+      \strng{bibnamehash}{b032e56ba5a956c54d709f1b0be78be6}
+      \strng{authorbibnamehash}{b032e56ba5a956c54d709f1b0be78be6}
+      \strng{authornamehash}{b032e56ba5a956c54d709f1b0be78be6}
+      \strng{authorfullhash}{b032e56ba5a956c54d709f1b0be78be6}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.}
+      \field{issn}{00029947}
+      \field{journaltitle}{Transactions of the American Mathematical Society}
+      \field{number}{3}
+      \field{title}{{Tests of Statistical Hypotheses Concerning Several Parameters When the Number of Observations is Large}}
+      \field{volume}{54}
+      \field{year}{1943}
+      \field{pages}{426}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1990256
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1990256
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1990256
+      \endverb
+    \endentry
+    \entry{Whittaker2012}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29ac7e44453e070333d7da21100e6b5f}{%
+           family={Whittaker},
+           familyi={W\bibinitperiod},
+           given={Tiffany\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29ac7e44453e070333d7da21100e6b5f}
+      \strng{fullhash}{29ac7e44453e070333d7da21100e6b5f}
+      \strng{bibnamehash}{29ac7e44453e070333d7da21100e6b5f}
+      \strng{authorbibnamehash}{29ac7e44453e070333d7da21100e6b5f}
+      \strng{authornamehash}{29ac7e44453e070333d7da21100e6b5f}
+      \strng{authorfullhash}{29ac7e44453e070333d7da21100e6b5f}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Experimental Education}
+      \field{number}{1}
+      \field{title}{{Using the Modification Index and Standardized Expected Parameter Change for Model Modification}}
+      \field{volume}{80}
+      \field{year}{2012}
+      \field{pages}{26\bibrangedash 44}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/00220973.2010.531299
+      \endverb
+    \endentry
+    \entry{Wolfinger1993}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d7591cce9285712846083afaaf26fc40}{%
+           family={Wolfinger},
+           familyi={W\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7591cce9285712846083afaaf26fc40}
+      \strng{fullhash}{d7591cce9285712846083afaaf26fc40}
+      \strng{bibnamehash}{d7591cce9285712846083afaaf26fc40}
+      \strng{authorbibnamehash}{d7591cce9285712846083afaaf26fc40}
+      \strng{authornamehash}{d7591cce9285712846083afaaf26fc40}
+      \strng{authorfullhash}{d7591cce9285712846083afaaf26fc40}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{4}
+      \field{title}{{Laplace's approximation for nonlinear mixed models}}
+      \field{volume}{80}
+      \field{year}{1993}
+      \field{pages}{791\bibrangedash 796}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

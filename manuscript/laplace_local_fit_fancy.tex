@@ -1,5 +1,5 @@
 %\documentclass[12pt]{apa7}
-\documentclass[man, noextraspace, floatsintext, 12pt]{apa7}
+\documentclass[noextraspace, floatsintext, 12pt]{apa7}
 %\documentclass[12pt, noextraspace, floatsintext]{apa6}
 %\documentclass[man, 12pt, noextraspace, floatsintext]{apa6}
 %\documentclass[11pt]{article}
@@ -103,7 +103,7 @@
 
 
 
-\abstract{Validity evidence for factor structures underlying a set of items can be based on how well a proposed model reconstructs, or fits, the relationships among observed variables. Global model fit is limited in that some components of the proposed model fit better than other components. This limitation has led to the recommendation of examining fit locally within model components. In this study, we describe a new probabilistic approach to assessing local fit using a Bayesian approximation, and illustrate the use of the proposed approach to assessing local fit with a simulated dataset. We also show how the posterior approximation closely approximated the sampling distribution of the true parameter. Finally, we discuss potential limitations and possible generalizations.
+\abstract{Validity evidence for factor structures underlying a set of items can be based on how well a proposed model reconstructs, or fits, the relationships among observed variables. Global model fit is limited in that some components of the proposed model fit better than other components. This limitation has led to the recommendation of examining fit locally within model components. In this study, we describe a new probabilistic approach to assessing local fit using a Bayesian approximation, and illustrate the use of the proposed approach to assessing local fit with a simulated dataset. We also show how the posterior approximation closely approximated the sampling distribution of the true parameter. Finally, we discuss potential limitation and possible generalizations.
 %\singlespacing
  } % End abstract
 
@@ -129,12 +129,12 @@ Most methodologists would likely agree that statistical models are an approximat
 Structural equation models are no exception to this point.
 The approximation of reality has been described as arising from distributional and structural approximations \citep{Bollen2019}.
 Identifying these model misspecifications can be at best, difficult, and at worst, impossible.
-A variety of methods are available to help identify misspecifications which lead to decisions about one's proposed model for measuring a construct \citep{DiStefano2016}. 
-The evaluation of fit of a proposed measurement model is the focus of this work.
-We focus on how researchers can provide evidence that the proposed measurement model is an adequate approximation of the measurement process.
+Misspecifications are found using a variety of methods which leads to decisions about retaining or modifying a proposed model. 
+The process of retaining or modifying a model is commonly employed in scale development in educational research.
+Finding evidence for a proposed measurement model is then our focus, and a variety of methods have been developed to help this decision making process.
 
 One popular method of finding evidence for once's proposed model is the use of global fit indices.
-Global fit indices help identify whether the specified measurement model adequately approximates the data generating process. 
+Global fit indices help identify whether the specified model well approximates the data generating process. 
 Typically used indices are the comparative fit index \citep{Bentler1990},  root mean square error of approximation \citep{Browne1992}, and standardized root mean square residual \citep{Bentler1995, Maydeu2018, Joreskog1981}.
 Many of these indices are now automatically computed in most SEM software.
 However, these indices only provide a coarse estimate of model-data fit \citep{Steiger2007}.
@@ -147,16 +147,15 @@ Each method has benefits and pitfalls that need to be considered when looking fo
 The methods above generally provide users with a way of identifying which specific relationships among observed variables are not captured by the model (e.g., residuals) or which specific component of the model that doesn't fit well (e.g., Wald tests).
 Once a change in the model has been conducted, a researcher can then compare the results of local fit to see if fit improved.
 
-Evaluating the change in model fit has been helpful for many in the model fit evaluation process as evident by the prolonged use of these approaches. 
+Evaluating the change in model fit has been helpful for many in the model fit evaluation process. 
 But this process is not without potential drawbacks.
 For example, modification indices can lead to conflicting information about sources of misfit leading to statistically equivalent models.
 Adding too many paths to the measurement or structural components of the model can lead to over fitting to the observed data and difficulty in interpreting model parameters.
-Aside from investigating standardized residuals \citep{Maydeu2017}, most current methods of investigating local fit rely on non-intuitive metrics (e.g., modification indices, likelihood ratios, or p-values).
-In order to improve the interpretability of local fit investigations, we propose an approach utilizing probabilities as the inferential unit for local fit assessment. 
-In the proposed probabilistic approach, the aim is to approximate whether additional paths will result in a meaningfully interpretable contribution to the model.
-Our method helps controls against over fit through interpretation driven local fit assessment.
+Aside from investigating standardized residuals \citep{Maydeu2017}, most current methods of investigating local fit rely on non-intuitive metrics (e.g., modification indices, likelihood ratios, or p-values). In order to improve the interpretability of local fit investigations, we propose a more directly interpretable approach using probabilities for local fit assessment. 
+Additionally, we aim to develop a probabilistic approach to approximate whether additional paths will result in meaningfully interpretable contribution to the model.
+With our method, we aim to help control against over fit and aid interpretation driven local fit assessment.
 
-The main contributions of this research are: First, we extend previous research on local fit assessment by introducing a probabilistic method utilizing Bayesian methods. 
+The main contributions of this research are: First, we extend previous research on local fit assessment by introducing a probabilistic method and the describe the conditions in which this approach holds theoretically-reliable results. 
 Second, we demonstrate the application of this approach in a simulated dataset with a known latent structure.
 Finally, we investigated the performance through Monte Carlo simulation study evaluating the accuracy of the predicted probabilities.
 
@@ -168,12 +167,12 @@ To address this issue, we have developed a relatively straightforward approach t
 In our experience, we have found that these proposed model changes proposed through modification indices results in parameter estimates that were of little substantive meaning.
 For example, a cross-loading that is low or a residual covariance that suggests a weak relationship can fail to substantively add to out understanding of the measurement process.
 
-The proposed method is to approximates what the magnitude of the non-estimated parameters would be if added to the model. 
-The magnitude is approximated by a probability distribution to represent the uncertainty in the parameter. 
+In this paper, we propose a method that approximates what the magnitude of the non-estimated parameters would be if added to the model. 
+We envision the magnitude being approximated by a probability distribution. 
 Using the approximated distribution of each parameter, a probability can be computed to capture how likely that the parameter would be of substantive interest.
 The idea underlying this approach to local fit assessment is to define a region of the parameter space that we would consider to be meaningful for the substantive question at hand. 
 A natural choice in the case of factor loadings is to define the region as $\vert \lambda \vert \geq 0.32$, which is the threshold typically considered as the bound for standardized factor loadings in exploratory factor analysis.
-However, we are not restricted to this region; for example, we might be interested in knowing if any loadings would likely be greater than one, indicating that the item loads more strongly than the item we fixed for identification.
+However, we are not restricted to this region; for example, we might be interested in knowing if any loadings would likely be greater than $1$, indicating that the item loads more strongly than the item we fixed for identification.
 This approach of approximating regions is similar to defining a ``region of practical equivalence (ROPE)'' described in \textcite{Shi2019} as a Bayesian approach for measurement invariance testing.
 The ROPE is a region in the parameter space that the researcher determines to be insignificant, and this is already done in most applications of exploratory factor analysis (EFA) when the researcher suppresses factor loadings that are below 0.32 \citep{Benson1998}.
 
@@ -205,7 +204,7 @@ Under mild regularity conditions the posterior distribution for $\theta$ will ap
 Using this property of the posterior, we can use Laplace's method to derive a second-order Taylor series approximation to the posterior \citep{Tierney1986}.
 The Taylor series approximation is used to get a point estimate for the posterior expectation and variance.
 Then, using these two pieces matched with the knowledge that the posterior is asymptotically normally distributed, we arrive at an approximate posterior distribution for any parameter. 
-The Lplace approximation is known to provide a useful approximation of posteriors for relatively simple models in a variety of contexts \citep{Kass1989, Rue2009}.
+The approximation is known to provide a useful approximation of posteriors for relatively simple models in a variety of contexts \citep{Kass1989, Rue2009}.
 
 Under the same regularity conditions that allow us to assume the normal distribution we would get that that $\hat{\theta}$ under the Laplace approximation is nearly equal to $\hat{\theta}_{MLE}$ and that the variance under the Laplace approximation is nearly identical to the $I_{OBS}$  (the observed information). %$\hat{\theta} \approx \hat{\theta}_{MLE}$ and that $-\ddot{q}(\hat{\theta}) \approx I_{OBS}$ (the observed information).
 Not including the prior distribution for $\theta$ in the approximation has been done previously \citep{Lee2016, Rue2009, Wolfinger1993, Li1992}.
@@ -215,7 +214,7 @@ Next, we will describe how we can utilize Laplace's method in factor analysis fo
 
 \subsubsection{Applying the Laplace approximation to Bayesian CFA}
 
-We borrowed most notation for Bayesian factor analysis from the chapter \textcite{Levy2013}.
+We borrowed most notation for Bayesian factor analysis from the chapter ().
  We can take the traditional factor model (shown below) and restructure the model to be able to efficiently approximate posterior features of interest.
 The full model is
 \begin{align*}
@@ -283,7 +282,7 @@ A sample of 300 was drawn from this population.
 We simplified the model here for illustration of our approach to local fit assessment.
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{fig/sim_factor_structure_values}
+\includegraphics[width=0.45\textwidth]{fig/sim_factor_structure_values}
 \caption{Simulating data model}
 \label{fig:model}
 \end{figure}
@@ -304,18 +303,18 @@ We found that, with the method described in this paper, the two paths with the h
 \label{tb:prob}
 \begin{tabular}{lr}
   \toprule
-$\theta$ & $\mathrm{Pr}( \mid \theta \mid \geq cutoff)$\\ 
+Parameter ($\theta$) & $\mathrm{Pr}( \mid \theta \mid \geq cutoff)$\\ 
   \midrule
-  	$\sigma_{7,4}$ & \textbf{.823}\\ 
-	$\sigma_{11, 8}$ &	.071\\
-	$\sigma_{7, 3}$ &	.046\\
-	$\sigma_{11, 1}$ &	.043\\
-	$\sigma_{5, 4}$ &	.024\\
-	$\sigma_{4, 3}$ &	.022\\
+  	$\mathrm{cov}(Y_7, Y_4)$ & \textbf{.823}\\ 
+	$\mathrm{cov}(Y_{11}, Y_8)$ &	.071\\
+	$\mathrm{cov}(Y_7, Y_3)$ &	.046\\
+	$\mathrm{cov}(Y_{11}, Y_1)$ &	.043\\
+	$\mathrm{cov}(Y_5, Y_4)$ &	.024\\
+	$\mathrm{cov}(Y_4, Y_3)$ &	.022\\
 	$\lambda_{4,2}$ &	.021\\
-	$\sigma_{5, 1}$ &	.019\\
-	$\sigma_{12,1}$ &	.019\\
-	$\sigma_{3, 2}$ &	\textbf{.002}\\   \bottomrule
+	$\mathrm{cov}(Y_5, Y_1)$ &	.019\\
+	$\mathrm{cov}(Y_{12}, Y_1)$ &	.019\\
+	$\mathrm{cov}(Y_3, Y_2)$ &	\textbf{.002}\\   \bottomrule
 \end{tabular}
 \vspace*{1mm}
  	\begin{tablenotes}[para,flushleft]
@@ -334,14 +333,14 @@ To do so, we generated 10,000 datasets from the population model, fit the popula
 We compared the sampling distribution to the approximated empirical sampling distributions used to compute the approximating probabilities shown in Table \ref{tb:prob}.
 We focused on the two residual covariances from the model in Figure \ref{fig:model}, because these two parameters are likely to be initially omitted from a model specification.
 The true and approximated sampling distributions are shown in Figure \ref{fig:dist}.
-The probabilities from the ``true'' sampling distribution are ${\rm Pr}(\sigma_{7,4} > 0.25) = 0.791$ and ${\rm Pr}(\sigma_{3,2} > 0.25) = 0.027$.
+The probabilities from the ``true'' sampling distribution are ${\rm Pr}(\mathrm{cov}(y_7, y_4) > 0.25) = 0.791$ and ${\rm Pr}(\mathrm{cov}(y_3, y_2) > 0.25) = 0.027$.
 
-\begin{figure}
+\begin{figure*}
 \centering
 \includegraphics[width=0.9\textwidth]{fig/sampling_dist}
 \caption{True and approximated sampling distributions for model residual covariances}
 \label{fig:dist}
-\end{figure}
+\end{figure*}
 
 
 \section{Discussion}
