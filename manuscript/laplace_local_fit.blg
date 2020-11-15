@@ -1,23 +1,23 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [3] Config.pm:315> INFO - Logfile is 'laplace_local_fit.blg'
-[136] biber-MSWIN64:330> INFO - === 
-[178] Biber.pm:415> INFO - Reading 'laplace_local_fit.bcf'
-[336] Biber.pm:952> INFO - Found 38 citekeys in bib section 0
-[361] Biber.pm:4334> INFO - Processing section 0
-[380] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[393] bibtex.pm:1682> INFO - LaTeX decoding ...
-[513] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[561] Utils.pm:395> WARN - month field 'may' in entry 'Maydeu2018' is not an integer - this will probably not sort properly.
-[593] Utils.pm:395> WARN - month field 'jan' in entry 'Kline2015' is not an integer - this will probably not sort properly.
-[602] Utils.pm:395> WARN - month field 'sep' in entry 'Sorbom1989' is not an integer - this will probably not sort properly.
-[606] Utils.pm:395> WARN - month field 'jul' in entry 'Kaplan1989' is not an integer - this will probably not sort properly.
-[613] Utils.pm:395> WARN - month field 'aug' in entry 'Buse1982' is not an integer - this will probably not sort properly.
-[626] Utils.pm:395> WARN - month field 'jan' in entry 'Chou1990' is not an integer - this will probably not sort properly.
-[642] Utils.pm:395> WARN - month field 'mar' in entry 'Shi2019' is not an integer - this will probably not sort properly.
-[847] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[848] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[848] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[848] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[919] bbl.pm:651> INFO - Writing 'laplace_local_fit.bbl' with encoding 'UTF-8'
-[971] bbl.pm:754> INFO - Output to laplace_local_fit.bbl
-[979] Biber.pm:128> INFO - WARNINGS: 7
+[107] biber-MSWIN64:330> INFO - === 
+[143] Biber.pm:415> INFO - Reading 'laplace_local_fit.bcf'
+[304] Biber.pm:952> INFO - Found 38 citekeys in bib section 0
+[337] Biber.pm:4334> INFO - Processing section 0
+[357] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[372] bibtex.pm:1682> INFO - LaTeX decoding ...
+[481] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[536] Utils.pm:395> WARN - month field 'may' in entry 'Maydeu2018' is not an integer - this will probably not sort properly.
+[571] Utils.pm:395> WARN - month field 'jan' in entry 'Kline2015' is not an integer - this will probably not sort properly.
+[583] Utils.pm:395> WARN - month field 'sep' in entry 'Sorbom1989' is not an integer - this will probably not sort properly.
+[589] Utils.pm:395> WARN - month field 'jul' in entry 'Kaplan1989' is not an integer - this will probably not sort properly.
+[598] Utils.pm:395> WARN - month field 'aug' in entry 'Buse1982' is not an integer - this will probably not sort properly.
+[611] Utils.pm:395> WARN - month field 'jan' in entry 'Chou1990' is not an integer - this will probably not sort properly.
+[628] Utils.pm:395> WARN - month field 'mar' in entry 'Shi2019' is not an integer - this will probably not sort properly.
+[795] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[796] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[796] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[797] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[846] bbl.pm:651> INFO - Writing 'laplace_local_fit.bbl' with encoding 'UTF-8'
+[903] bbl.pm:754> INFO - Output to laplace_local_fit.bbl
+[910] Biber.pm:128> INFO - WARNINGS: 7
