@@ -20,7 +20,7 @@ library(data.table)
 library(tcltk)
 
 # Set Seed for Reproducibility
-set.seed(20201001)
+set.seed(20201113)
 
 # summary objects
 nrep <- 1000
@@ -103,7 +103,7 @@ analysis.model1 <- '
 
 
 Output <- sim(nrep, model=analysis.model1,silent = T,
-              n=300, generate=population.model,
+              n=500, generate=population.model,
               lavaanfun = "cfa")
 
 sim.res[,1:2] <- Output@stdCoef[, c("y2~~y3", "y4~~y7")]
@@ -116,7 +116,7 @@ plot_dat <- sim.res %>%
     names_to = "Parameter",
     values_to = "Estimate"
   ) %>%
-  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25))
+  mutate(V = ifelse(Parameter %like% "=~", 0.30, 0.25))
 
 p <- ggplot(plot_dat, aes(x=Estimate))+
   geom_density(adjust = 2)+
@@ -159,7 +159,7 @@ population.model <- '
 '
 
 # generate data
-myData <- simulateData(population.model, sample.nobs=300L)
+myData <- simulateData(population.model, sample.nobs=500L)
 
 # fit model
 myModel <- ' 
@@ -176,7 +176,7 @@ fit <- cfa(myModel, data=myData)
 summary(fit, standardized=T)
 
 lfit <- laplace_local_fit(
-  fit, data=myData, cut.load = 0.32, cut.cov = 0.25,
+  fit, data=myData, cut.load = 0.30, cut.cov = 0.25,
   standardize = T, pb = F,
   opt=list(scale.cov=1, no.samples=10000))
 
@@ -205,7 +205,7 @@ plot_dat_laplace <- lfit$`All Results` %>%
 
 plot_dat_laplace <- filter(plot_dat_laplace,
                            Parameter %in% c("y3~~y2", "y7~~y4")) %>%
-  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25),
+  mutate(V = ifelse(Parameter %like% "=~", 0.30, 0.25),
          Parameter = ifelse(Parameter == "y3~~y2",
                             "cov(y[2], y[3])", "cov(y[4], y[7])"))
 
@@ -216,7 +216,7 @@ plot_dat_emp <- sim.res %>%
     names_to = "Parameter",
     values_to = "Estimate"
   ) %>%
-  mutate(V = ifelse(Parameter %like% "=~", 0.32, 0.25),
+  mutate(V = ifelse(Parameter %like% "=~", 0.30, 0.25),
          Parameter = ifelse(Parameter == "y2~~y3",
                             "cov(y[2], y[3])", "cov(y[4], y[7])"))
 

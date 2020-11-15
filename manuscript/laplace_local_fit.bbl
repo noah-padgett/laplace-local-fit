@@ -47,19 +47,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Discusses the conceptual/theoretical design, statistical, and reporting issues in choosing factor analysis for research. Provides questions to consider when planning, analyzing, or reporting an exploratory factor analysis study. (SK)}
-      \field{isbn}{0739-3369}
       \field{journaltitle}{Journal of Vocational Education Research}
       \field{number}{1}
       \field{title}{{On the Use of Factor Analysis as a Research Tool}}
       \field{volume}{23}
       \field{year}{1998}
-      \field{pages}{13}
-      \range{pages}{1}
-      \verb{file}
-      \verb :C$\backslash$:/Users/noah{\_}padgett1/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Benson, Nasser - 1998 - On the Use of Factor Analysis as a Research Tool.pdf:pdf
-      \endverb
-      \keyw{Educational Research,Factor Analysis,Research Methodology,Statistics}
+      \field{pages}{13\bibrangedash 33}
+      \range{pages}{21}
     \endentry
     \entry{Bentler1990}{article}{}
       \name{author}{1}{}{%
@@ -452,6 +446,52 @@
       \field{title}{Theory of Probability, Violumne 1}
       \field{year}{1974}
     \endentry
+    \entry{DiStefano2016}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acc6a15f2120dd02fb2079dc077c9b40}{%
+           family={DiStefano},
+           familyi={D\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=34ad9878d20248c96e7beee8a621b437}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=acc6a15f2120dd02fb2079dc077c9b40}{%
+           family={DiStefano},
+           familyi={D\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hogrefe Publishing}%
+      }
+      \strng{namehash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{fullhash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{bibnamehash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{authorbibnamehash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{authornamehash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{authorfullhash}{acc6a15f2120dd02fb2079dc077c9b40}
+      \strng{editorbibnamehash}{d190f6a1b11e92a9d6fc665409afce69}
+      \strng{editornamehash}{d190f6a1b11e92a9d6fc665409afce69}
+      \strng{editorfullhash}{d190f6a1b11e92a9d6fc665409afce69}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Principles and Methods of Test Construction}
+      \field{title}{{Examining Fit With Structural Equation Models}}
+      \field{year}{2016}
+      \field{pages}{166\bibrangedash 193}
+      \range{pages}{28}
+    \endentry
     \entry{DBA3}{book}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
@@ -754,6 +794,59 @@
       \verb{doi}
       \verb 10.1080/10705511.2015.1014041
       \endverb
+    \endentry
+    \entry{Levy2013}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7762af597023209d02c37b7cc9ed04dc}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=697f5b0ae91348042d57c1231a9abb80}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Jaehwa},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=81e7485b2a44f35f3715b22b94df851c}{%
+           family={Hancock},
+           familyi={H\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8335dd75844b2afdb084cbf946b77eba}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Ralph\bibnamedelima O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Information Age Publishing}%
+      }
+      \strng{namehash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{fullhash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{bibnamehash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{authorbibnamehash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{authornamehash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{authorfullhash}{15b87c2acd7cab1ae0d1bdc24d4ea2df}
+      \strng{editorbibnamehash}{4b40c6c09b6eb79ad5dc5678e06328bb}
+      \strng{editornamehash}{4b40c6c09b6eb79ad5dc5678e06328bb}
+      \strng{editorfullhash}{4b40c6c09b6eb79ad5dc5678e06328bb}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Structural Equation Modeling: A Second Course}
+      \field{issn}{1623962447}
+      \field{title}{{Bayesian structural equation modeling.}}
+      \field{year}{2013}
+      \field{pages}{563\bibrangedash 623}
+      \range{pages}{61}
     \endentry
     \entry{Levy2016}{book}{}
       \name{author}{2}{}{%
